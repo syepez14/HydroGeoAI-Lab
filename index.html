@@ -1,17 +1,23 @@
+```html
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>HydroGeoAI Lab</title>
 
   <meta
     name="description"
     content="HydroGeoAI Lab - Advanced Remote Sensing and Artificial Intelligence for Aquatic & Fluvial Systems"
-  />
+  >
 
   <style>
+
+    /* =========================================================
+       COLORS
+    ========================================================= */
+
     :root {
       --primary: #087f9c;
       --primary-dark: #04566c;
@@ -27,7 +33,13 @@
       --border: #d6edf2;
 
       --shadow: 0 10px 30px rgba(0, 87, 112, 0.10);
+      --shadow-strong: 0 20px 50px rgba(0, 87, 112, 0.16);
     }
+
+
+    /* =========================================================
+       GENERAL
+    ========================================================= */
 
     * {
       margin: 0;
@@ -55,9 +67,50 @@
       line-height: 1.6;
     }
 
-    /* =========================
+    section {
+      padding: 90px 25px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section-label {
+      color: var(--primary);
+
+      font-size: 0.8rem;
+      font-weight: 800;
+
+      text-transform: uppercase;
+      letter-spacing: 2px;
+
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      color: var(--primary-dark);
+
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      line-height: 1.15;
+
+      margin-bottom: 15px;
+    }
+
+    .section-description {
+      max-width: 760px;
+
+      color: var(--muted);
+
+      font-size: 1.05rem;
+
+      margin-bottom: 45px;
+    }
+
+
+    /* =========================================================
        NAVBAR
-    ========================== */
+    ========================================================= */
 
     header {
       position: sticky;
@@ -99,6 +152,7 @@
     .brand-name {
       font-size: 1.2rem;
       font-weight: 800;
+
       color: var(--primary-dark);
     }
 
@@ -110,9 +164,12 @@
 
     nav a {
       color: var(--text);
+
       text-decoration: none;
+
       font-size: 0.95rem;
       font-weight: 600;
+
       transition: 0.2s ease;
     }
 
@@ -120,9 +177,10 @@
       color: var(--primary);
     }
 
-    /* =========================
+
+    /* =========================================================
        HERO
-    ========================== */
+    ========================================================= */
 
     .hero {
       position: relative;
@@ -145,13 +203,17 @@
     .hero-container {
       max-width: 1200px;
       min-height: 560px;
+
       margin: auto;
 
       padding: 90px 25px;
 
       display: grid;
+
       grid-template-columns: 1.15fr 0.85fr;
+
       align-items: center;
+
       gap: 60px;
     }
 
@@ -159,11 +221,13 @@
       display: inline-block;
 
       color: var(--primary);
+
       background: rgba(8, 127, 156, 0.10);
 
       border: 1px solid rgba(8, 127, 156, 0.15);
 
       padding: 7px 14px;
+
       border-radius: 999px;
 
       font-size: 0.85rem;
@@ -174,7 +238,9 @@
 
     .hero h1 {
       font-size: clamp(3rem, 6vw, 5.5rem);
+
       line-height: 0.95;
+
       letter-spacing: -3px;
 
       color: var(--primary-dark);
@@ -184,9 +250,11 @@
 
     .hero-description {
       font-size: 1.35rem;
+
       max-width: 680px;
 
       color: #385963;
+
       line-height: 1.6;
 
       margin-bottom: 35px;
@@ -195,11 +263,13 @@
     .hero-buttons {
       display: flex;
       flex-wrap: wrap;
+
       gap: 14px;
     }
 
     .btn {
       display: inline-flex;
+
       align-items: center;
       justify-content: center;
 
@@ -227,23 +297,29 @@
 
     .btn-primary:hover {
       background: var(--primary-dark);
+
       transform: translateY(-2px);
+
       box-shadow: var(--shadow);
     }
 
     .btn-outline {
       border: 1px solid var(--primary);
+
       color: var(--primary);
+
       background: transparent;
     }
 
     .btn-outline:hover {
       background: var(--primary);
+
       color: white;
     }
 
     .hero-logo {
       display: flex;
+
       justify-content: center;
       align-items: center;
     }
@@ -263,53 +339,10 @@
       border: 1px solid rgba(8, 127, 156, 0.10);
     }
 
-    /* =========================
-       GENERAL
-    ========================== */
 
-    section {
-      padding: 90px 25px;
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    .section-label {
-      color: var(--primary);
-
-      font-size: 0.8rem;
-      font-weight: 800;
-
-      text-transform: uppercase;
-      letter-spacing: 2px;
-
-      margin-bottom: 10px;
-    }
-
-    .section-title {
-      color: var(--primary-dark);
-
-      font-size: clamp(2rem, 4vw, 3.2rem);
-      line-height: 1.15;
-
-      margin-bottom: 15px;
-    }
-
-    .section-description {
-      max-width: 750px;
-
-      color: var(--muted);
-
-      font-size: 1.05rem;
-
-      margin-bottom: 45px;
-    }
-
-    /* =========================
+    /* =========================================================
        ABOUT
-    ========================== */
+    ========================================================= */
 
     .about {
       background: white;
@@ -317,6 +350,7 @@
 
     .about-grid {
       display: grid;
+
       grid-template-columns: repeat(3, 1fr);
 
       gap: 22px;
@@ -326,6 +360,7 @@
       background: var(--surface-soft);
 
       border: 1px solid var(--border);
+
       border-radius: 14px;
 
       padding: 30px;
@@ -335,11 +370,19 @@
 
     .about-card:hover {
       transform: translateY(-4px);
+
       box-shadow: var(--shadow);
+    }
+
+    .about-icon {
+      font-size: 2rem;
+
+      margin-bottom: 12px;
     }
 
     .about-card h3 {
       color: var(--primary-dark);
+
       margin-bottom: 10px;
     }
 
@@ -347,9 +390,10 @@
       color: var(--muted);
     }
 
-    /* =========================
+
+    /* =========================================================
        PROJECTS
-    ========================== */
+    ========================================================= */
 
     .projects {
       background: var(--background);
@@ -357,6 +401,7 @@
 
     .projects-grid {
       display: grid;
+
       grid-template-columns: repeat(2, minmax(0, 1fr));
 
       gap: 25px;
@@ -366,6 +411,7 @@
       background: white;
 
       border: 1px solid var(--border);
+
       border-radius: 16px;
 
       padding: 30px;
@@ -384,12 +430,15 @@
 
     .project-card:hover {
       transform: translateY(-5px);
+
       box-shadow: var(--shadow);
     }
 
     .project-top {
       display: flex;
+
       flex-wrap: wrap;
+
       gap: 8px;
 
       margin-bottom: 22px;
@@ -406,6 +455,7 @@
       font-weight: 800;
 
       background: #e4f6fa;
+
       color: var(--primary-dark);
 
       border: 1px solid #ccebf1;
@@ -413,13 +463,17 @@
 
     .tag.status-active {
       background: #e4f7ed;
+
       color: #19714b;
+
       border-color: #bce8d1;
     }
 
     .tag.status-closed {
       background: #eef1f2;
+
       color: #5f6d72;
+
       border-color: #dbe2e4;
     }
 
@@ -427,6 +481,7 @@
       color: var(--text);
 
       font-size: 1.22rem;
+
       line-height: 1.4;
 
       margin-bottom: 24px;
@@ -434,6 +489,7 @@
 
     .project-meta {
       display: grid;
+
       grid-template-columns: 1fr 1fr;
 
       gap: 12px;
@@ -443,6 +499,7 @@
 
     .meta-item {
       border-left: 3px solid var(--aqua);
+
       padding-left: 12px;
     }
 
@@ -452,9 +509,11 @@
       color: var(--muted);
 
       font-size: 0.7rem;
+
       font-weight: 700;
 
       text-transform: uppercase;
+
       letter-spacing: 0.8px;
 
       margin-bottom: 2px;
@@ -475,7 +534,9 @@
       border-top: 1px solid var(--border);
 
       display: flex;
+
       flex-wrap: wrap;
+
       gap: 9px;
     }
 
@@ -483,6 +544,7 @@
       text-decoration: none;
 
       color: var(--primary);
+
       background: white;
 
       border: 1px solid var(--primary);
@@ -499,20 +561,345 @@
 
     .project-button:hover {
       color: white;
+
       background: var(--primary);
     }
 
     .project-button.placeholder {
       color: #83979d;
+
       border-color: #cbdadd;
+
       background: #f8fbfc;
 
       cursor: default;
     }
 
-    /* =========================
+
+    /* =========================================================
+       TEAM
+    ========================================================= */
+
+    .team-section {
+      background: white;
+    }
+
+    .team-grid {
+      display: grid;
+
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+
+      gap: 30px;
+    }
+
+    .team-card {
+      position: relative;
+
+      overflow: hidden;
+
+      background: white;
+
+      border: 1px solid var(--border);
+
+      border-radius: 20px;
+
+      box-shadow: 0 8px 28px rgba(0, 91, 120, 0.08);
+
+      transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+    }
+
+    .team-card:hover {
+      transform: translateY(-6px);
+
+      box-shadow: var(--shadow-strong);
+    }
+
+    .team-card::before {
+      content: "";
+
+      position: absolute;
+
+      top: 0;
+      left: 0;
+
+      width: 100%;
+      height: 6px;
+
+      background:
+        linear-gradient(
+          90deg,
+          var(--primary-dark),
+          var(--primary-light),
+          var(--aqua)
+        );
+    }
+
+    .team-content {
+      padding: 32px;
+    }
+
+    .team-header {
+      display: flex;
+
+      align-items: center;
+
+      gap: 24px;
+
+      margin-bottom: 24px;
+    }
+
+
+    /* Photo container */
+
+    .profile-photo {
+      position: relative;
+
+      width: 125px;
+      height: 125px;
+
+      min-width: 125px;
+
+      border-radius: 50%;
+
+      overflow: hidden;
+
+      background:
+        linear-gradient(
+          135deg,
+          var(--primary-dark),
+          var(--aqua)
+        );
+
+      border: 5px solid #e9f8fb;
+
+      box-shadow: 0 8px 22px rgba(0, 99, 126, 0.17);
+
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+    }
+
+    .profile-photo img {
+      position: absolute;
+
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+
+      z-index: 2;
+    }
+
+    .profile-initials {
+      color: white;
+
+      font-size: 2rem;
+      font-weight: 800;
+
+      letter-spacing: 1px;
+
+      z-index: 1;
+    }
+
+
+    /* Person information */
+
+    .team-title {
+      flex: 1;
+    }
+
+    .leader-badge {
+      display: inline-block;
+
+      color: var(--primary-dark);
+
+      background: #e4f6fa;
+
+      border: 1px solid #c9ebf2;
+
+      border-radius: 999px;
+
+      padding: 5px 10px;
+
+      margin-bottom: 9px;
+
+      font-size: 0.7rem;
+
+      font-weight: 800;
+
+      text-transform: uppercase;
+
+      letter-spacing: 1px;
+    }
+
+    .member-badge {
+      display: inline-block;
+
+      color: #356675;
+
+      background: #edf8fa;
+
+      border: 1px solid #d3edf2;
+
+      border-radius: 999px;
+
+      padding: 5px 10px;
+
+      margin-bottom: 9px;
+
+      font-size: 0.7rem;
+
+      font-weight: 800;
+
+      text-transform: uppercase;
+
+      letter-spacing: 1px;
+    }
+
+    .team-title h3 {
+      color: var(--primary-dark);
+
+      font-size: 1.55rem;
+
+      line-height: 1.2;
+
+      margin-bottom: 6px;
+    }
+
+    .team-role {
+      color: var(--primary);
+
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+
+    .team-affiliation {
+      color: var(--muted);
+
+      font-size: 0.82rem;
+
+      margin-top: 3px;
+    }
+
+
+    /* Biography */
+
+    .team-bio {
+      color: #506a72;
+
+      font-size: 0.95rem;
+
+      line-height: 1.75;
+
+      margin-bottom: 20px;
+    }
+
+
+    /* Research interests */
+
+    .research-interests {
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 7px;
+
+      margin-bottom: 24px;
+    }
+
+    .interest {
+      padding: 5px 10px;
+
+      border-radius: 6px;
+
+      background: var(--surface-soft);
+
+      border: 1px solid var(--border);
+
+      color: var(--primary-dark);
+
+      font-size: 0.72rem;
+
+      font-weight: 700;
+    }
+
+
+    /* Profile links */
+
+    .profile-links {
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 9px;
+
+      padding-top: 20px;
+
+      border-top: 1px solid var(--border);
+    }
+
+    .profile-link {
+      display: inline-flex;
+
+      align-items: center;
+
+      gap: 6px;
+
+      text-decoration: none;
+
+      padding: 8px 12px;
+
+      border-radius: 7px;
+
+      border: 1px solid var(--primary);
+
+      color: var(--primary);
+
+      background: white;
+
+      font-size: 0.78rem;
+
+      font-weight: 700;
+
+      transition: 0.2s ease;
+    }
+
+    .profile-link:hover {
+      background: var(--primary);
+
+      color: white;
+
+      transform: translateY(-2px);
+    }
+
+
+    /* =========================================================
+       PUBLICATIONS
+    ========================================================= */
+
+    .publications-section {
+      background: var(--background);
+    }
+
+    .coming-soon {
+      border: 1px dashed #acdce6;
+
+      border-radius: 16px;
+
+      padding: 35px;
+
+      color: var(--muted);
+
+      background: rgba(255,255,255,0.65);
+    }
+
+
+    /* =========================================================
        CONTACT
-    ========================== */
+    ========================================================= */
 
     .contact {
       background:
@@ -532,12 +919,13 @@
     }
 
     .contact .section-description {
-      opacity: 0.85;
+      opacity: 0.88;
     }
 
-    /* =========================
+
+    /* =========================================================
        FOOTER
-    ========================== */
+    ========================================================= */
 
     footer {
       background: #073b4b;
@@ -551,9 +939,10 @@
       font-size: 0.85rem;
     }
 
-    /* =========================
+
+    /* =========================================================
        RESPONSIVE
-    ========================== */
+    ========================================================= */
 
     @media (max-width: 900px) {
 
@@ -581,7 +970,8 @@
       }
 
       .projects-grid,
-      .about-grid {
+      .about-grid,
+      .team-grid {
         grid-template-columns: 1fr;
       }
 
@@ -592,46 +982,95 @@
       .project-meta {
         grid-template-columns: 1fr;
       }
+
+    }
+
+
+    @media (max-width: 600px) {
+
+      section {
+        padding: 70px 20px;
+      }
+
+      .team-header {
+        flex-direction: column;
+
+        align-items: flex-start;
+      }
+
+      .profile-photo {
+        width: 110px;
+        height: 110px;
+
+        min-width: 110px;
+      }
+
+      .team-content {
+        padding: 25px;
+      }
+
     }
 
   </style>
 </head>
 
+
 <body>
 
-  <!-- =========================
+
+  <!-- =========================================================
        HEADER
-  ========================== -->
+  ========================================================== -->
 
   <header>
+
     <div class="navbar">
 
       <a class="brand" href="#home">
-        <img src="logo/logo.jpeg" alt="HydroGeoAI Lab Logo" />
-        <span class="brand-name">HydroGeoAI Lab</span>
+
+        <img
+          src="logo/logo.jpeg"
+          alt="HydroGeoAI Lab Logo"
+        >
+
+        <span class="brand-name">
+          HydroGeoAI Lab
+        </span>
+
       </a>
 
+
       <nav>
+
         <a href="#about">About</a>
+
         <a href="#projects">Projects</a>
-        <a href="#publications">Publications</a>
+
         <a href="#team">Team</a>
+
+        <a href="#publications">Publications</a>
+
         <a href="#contact">Contact</a>
+
       </nav>
 
     </div>
+
   </header>
 
 
-  <!-- =========================
-       HERO
-  ========================== -->
 
   <main>
+
+
+    <!-- =========================================================
+         HERO
+    ========================================================== -->
 
     <section class="hero" id="home">
 
       <div class="hero-container">
+
 
         <div>
 
@@ -639,24 +1078,35 @@
             Research Laboratory
           </div>
 
+
           <h1>
             HydroGeoAI<br>
             Lab
           </h1>
 
+
           <p class="hero-description">
+
             Advanced Remote Sensing and Artificial Intelligence
             for Aquatic & Fluvial Systems
+
           </p>
+
 
           <div class="hero-buttons">
 
-            <a href="#projects" class="btn btn-primary">
+            <a
+              href="#projects"
+              class="btn btn-primary"
+            >
               Explore our projects
             </a>
 
-            <a href="#about" class="btn btn-outline">
-              About the Lab
+            <a
+              href="#team"
+              class="btn btn-outline"
+            >
+              Meet the team
             </a>
 
           </div>
@@ -669,69 +1119,114 @@
           <img
             src="logo/logo.jpeg"
             alt="HydroGeoAI Laboratory"
-          />
+          >
 
         </div>
+
 
       </div>
 
     </section>
 
 
-    <!-- =========================
+
+    <!-- =========================================================
          ABOUT
-    ========================== -->
+    ========================================================== -->
 
     <section class="about" id="about">
 
       <div class="container">
 
+
         <div class="section-label">
           About us
         </div>
 
+
         <h2 class="section-title">
+
           Remote sensing, artificial intelligence
           and aquatic systems
+
         </h2>
 
+
         <p class="section-description">
+
           HydroGeoAI Lab develops interdisciplinary research
-          combining remote sensing, geospatial technologies,
+          combining advanced remote sensing, geospatial technologies,
           artificial intelligence and environmental sciences
-          to study aquatic and fluvial systems.
+          to understand aquatic, fluvial and terrestrial systems.
+
         </p>
 
 
         <div class="about-grid">
 
+
           <div class="about-card">
-            <h3>Remote Sensing</h3>
+
+            <div class="about-icon">
+              🛰️
+            </div>
+
+            <h3>
+              Remote Sensing
+            </h3>
+
             <p>
+
               Hyperspectral imaging, optical remote sensing,
-              UAV observations and advanced environmental sensing.
+              UAV observations, LiDAR and advanced environmental
+              sensing.
+
             </p>
+
           </div>
 
 
           <div class="about-card">
-            <h3>Artificial Intelligence</h3>
+
+            <div class="about-icon">
+              🤖
+            </div>
+
+            <h3>
+              Artificial Intelligence
+            </h3>
+
             <p>
-              Machine learning and deep learning approaches
+
+              Machine learning, deep learning and computer vision
               for environmental monitoring, prediction and
               geospatial analysis.
+
             </p>
+
           </div>
 
 
           <div class="about-card">
-            <h3>Aquatic & Fluvial Systems</h3>
+
+            <div class="about-icon">
+              💧
+            </div>
+
+            <h3>
+              Aquatic & Fluvial Systems
+            </h3>
+
             <p>
+
               Research on rivers, lakes, reservoirs,
-              sediment dynamics, water quality and
+              sediment dynamics, hydrology, water quality and
               hydro-geomorphological processes.
+
             </p>
+
           </div>
+
 
         </div>
 
@@ -740,25 +1235,31 @@
     </section>
 
 
-    <!-- =========================
+
+    <!-- =========================================================
          PROJECTS
-    ========================== -->
+    ========================================================== -->
 
     <section class="projects" id="projects">
 
       <div class="container">
 
+
         <div class="section-label">
           Research
         </div>
+
 
         <h2 class="section-title">
           Projects
         </h2>
 
+
         <p class="section-description">
+
           Current and completed research projects developed
-          by members of the HydroGeoAI Lab.
+          by researchers and collaborators of HydroGeoAI Lab.
+
         </p>
 
 
@@ -770,30 +1271,60 @@
           <article class="project-card">
 
             <div class="project-top">
-              <span class="tag">FONDECYT</span>
-              <span class="tag">National</span>
-              <span class="tag status-active">Ongoing</span>
+
+              <span class="tag">
+                FONDECYT
+              </span>
+
+              <span class="tag">
+                National
+              </span>
+
+              <span class="tag status-active">
+                Ongoing
+              </span>
+
             </div>
 
+
             <h3>
+
               Assessing Human-Induced Changes in Sediment Transport
               Dynamics in the Biobío River Through Hyperspectral
               and Morphodynamic Approaches
+
             </h3>
+
 
             <div class="project-meta">
 
               <div class="meta-item">
-                <span class="meta-label">Period</span>
-                <span class="meta-value">2026 – 2029</span>
+
+                <span class="meta-label">
+                  Period
+                </span>
+
+                <span class="meta-value">
+                  2026 – 2029
+                </span>
+
               </div>
 
+
               <div class="meta-item">
-                <span class="meta-label">Role</span>
-                <span class="meta-value">Principal Investigator</span>
+
+                <span class="meta-label">
+                  Role
+                </span>
+
+                <span class="meta-value">
+                  Principal Investigator
+                </span>
+
               </div>
 
             </div>
+
 
             <div class="project-links">
 
@@ -812,6 +1343,7 @@
             </div>
 
           </article>
+
 
 
           <!-- PROJECT 2 -->
@@ -819,30 +1351,60 @@
           <article class="project-card">
 
             <div class="project-top">
-              <span class="tag">FONDECYT</span>
-              <span class="tag">National</span>
-              <span class="tag status-active">Ongoing</span>
+
+              <span class="tag">
+                FONDECYT
+              </span>
+
+              <span class="tag">
+                National
+              </span>
+
+              <span class="tag status-active">
+                Ongoing
+              </span>
+
             </div>
 
+
             <h3>
+
               Close-range 3D-hyperspectral imaging and machine
               learning tools for high throughput plant phenotyping
               in abiotic stress studies of Eucalyptus spp
+
             </h3>
+
 
             <div class="project-meta">
 
               <div class="meta-item">
-                <span class="meta-label">Period</span>
-                <span class="meta-value">2025 – 2029</span>
+
+                <span class="meta-label">
+                  Period
+                </span>
+
+                <span class="meta-value">
+                  2025 – 2029
+                </span>
+
               </div>
 
+
               <div class="meta-item">
-                <span class="meta-label">Role</span>
-                <span class="meta-value">Co-Investigator</span>
+
+                <span class="meta-label">
+                  Role
+                </span>
+
+                <span class="meta-value">
+                  Co-Investigator
+                </span>
+
               </div>
 
             </div>
+
 
             <div class="project-links">
 
@@ -861,6 +1423,7 @@
             </div>
 
           </article>
+
 
 
           <!-- PROJECT 3 -->
@@ -868,128 +1431,60 @@
           <article class="project-card">
 
             <div class="project-top">
-              <span class="tag">VRID</span>
-              <span class="tag">University Internal</span>
-              <span class="tag status-active">Ongoing</span>
+
+              <span class="tag">
+                VRID
+              </span>
+
+              <span class="tag">
+                University Internal
+              </span>
+
+              <span class="tag status-active">
+                Ongoing
+              </span>
+
             </div>
 
+
             <h3>
+
               Dinámicas fluviales y transformaciones socio-territoriales
               en la cuenca del río Penco. Geomorfología fluvial,
               experiencias del río y soluciones basadas en la naturaleza
+
             </h3>
+
 
             <div class="project-meta">
 
               <div class="meta-item">
-                <span class="meta-label">Periodo</span>
-                <span class="meta-value">2025 – 2027</span>
+
+                <span class="meta-label">
+                  Period
+                </span>
+
+                <span class="meta-value">
+                  2025 – 2027
+                </span>
+
               </div>
+
 
               <div class="meta-item">
-                <span class="meta-label">Rol</span>
-                <span class="meta-value">Coinvestigador</span>
+
+                <span class="meta-label">
+                  Role
+                </span>
+
+                <span class="meta-value">
+                  Co-Investigator
+                </span>
+
               </div>
 
             </div>
 
-            <div class="project-links">
-
-              <a class="project-button placeholder" href="#">
-                Proyecto
-              </a>
-
-              <a class="project-button placeholder" href="#">
-                Publicaciones
-              </a>
-
-              <a class="project-button placeholder" href="#">
-                Resultados
-              </a>
-
-            </div>
-
-          </article>
-
-
-          <!-- PROJECT 4 -->
-
-          <article class="project-card">
-
-            <div class="project-top">
-              <span class="tag">Cooperación Internacional</span>
-              <span class="tag">National</span>
-              <span class="tag status-closed">Closed</span>
-            </div>
-
-            <h3>
-              Redes GeoEspaciales: Explorando el uso de la Geomática
-              y la Teledetección aplicada a la adaptación climática
-            </h3>
-
-            <div class="project-meta">
-
-              <div class="meta-item">
-                <span class="meta-label">Periodo</span>
-                <span class="meta-value">2024 – 2025</span>
-              </div>
-
-              <div class="meta-item">
-                <span class="meta-label">Rol</span>
-                <span class="meta-value">Coinvestigador</span>
-              </div>
-
-            </div>
-
-            <div class="project-links">
-
-              <a class="project-button placeholder" href="#">
-                Proyecto
-              </a>
-
-              <a class="project-button placeholder" href="#">
-                Publicaciones
-              </a>
-
-              <a class="project-button placeholder" href="#">
-                Resultados
-              </a>
-
-            </div>
-
-          </article>
-
-
-          <!-- PROJECT 5 -->
-
-          <article class="project-card">
-
-            <div class="project-top">
-              <span class="tag">FONDECYT</span>
-              <span class="tag">National</span>
-              <span class="tag status-closed">Closed</span>
-            </div>
-
-            <h3>
-              Seasonal and interannual variability of inherent and
-              apparent optical properties in lakes and reservoirs
-              in south-central Chile: Implications for bio-optical
-              modeling and water quality
-            </h3>
-
-            <div class="project-meta">
-
-              <div class="meta-item">
-                <span class="meta-label">Period</span>
-                <span class="meta-value">2022 – 2025</span>
-              </div>
-
-              <div class="meta-item">
-                <span class="meta-label">Role</span>
-                <span class="meta-value">Principal Investigator</span>
-              </div>
-
-            </div>
 
             <div class="project-links">
 
@@ -1010,53 +1505,245 @@
           </article>
 
 
-          <!-- PROJECT 6 -->
+
+          <!-- PROJECT 4 -->
 
           <article class="project-card">
 
             <div class="project-top">
-              <span class="tag">VRID</span>
-              <span class="tag">University Internal</span>
-              <span class="tag status-closed">Completed</span>
+
+              <span class="tag">
+                International Cooperation
+              </span>
+
+              <span class="tag">
+                National
+              </span>
+
+              <span class="tag status-closed">
+                Closed
+              </span>
+
             </div>
 
+
             <h3>
-              Integración de sensores remotos, herramientas fisiológicas
-              y genómicas para la selección de individuos de peumo
-              resistentes a sequía
+
+              Redes GeoEspaciales: Explorando el uso de la Geomática
+              y la Teledetección aplicada a la adaptación climática
+
             </h3>
+
 
             <div class="project-meta">
 
               <div class="meta-item">
-                <span class="meta-label">Periodo</span>
-                <span class="meta-value">2022 – 2024</span>
+
+                <span class="meta-label">
+                  Period
+                </span>
+
+                <span class="meta-value">
+                  2024 – 2025
+                </span>
+
               </div>
 
+
               <div class="meta-item">
-                <span class="meta-label">Rol</span>
-                <span class="meta-value">Coinvestigador</span>
+
+                <span class="meta-label">
+                  Role
+                </span>
+
+                <span class="meta-value">
+                  Co-Investigator
+                </span>
+
               </div>
 
             </div>
 
+
             <div class="project-links">
 
               <a class="project-button placeholder" href="#">
-                Proyecto
+                Project
               </a>
 
               <a class="project-button placeholder" href="#">
-                Publicaciones
+                Publications
               </a>
 
               <a class="project-button placeholder" href="#">
-                Resultados
+                Results
               </a>
 
             </div>
 
           </article>
+
+
+
+          <!-- PROJECT 5 -->
+
+          <article class="project-card">
+
+            <div class="project-top">
+
+              <span class="tag">
+                FONDECYT
+              </span>
+
+              <span class="tag">
+                National
+              </span>
+
+              <span class="tag status-closed">
+                Closed
+              </span>
+
+            </div>
+
+
+            <h3>
+
+              Seasonal and interannual variability of inherent and
+              apparent optical properties in lakes and reservoirs
+              in south-central Chile: Implications for bio-optical
+              modeling and water quality
+
+            </h3>
+
+
+            <div class="project-meta">
+
+              <div class="meta-item">
+
+                <span class="meta-label">
+                  Period
+                </span>
+
+                <span class="meta-value">
+                  2022 – 2025
+                </span>
+
+              </div>
+
+
+              <div class="meta-item">
+
+                <span class="meta-label">
+                  Role
+                </span>
+
+                <span class="meta-value">
+                  Principal Investigator
+                </span>
+
+              </div>
+
+            </div>
+
+
+            <div class="project-links">
+
+              <a class="project-button placeholder" href="#">
+                Project
+              </a>
+
+              <a class="project-button placeholder" href="#">
+                Publications
+              </a>
+
+              <a class="project-button placeholder" href="#">
+                Results
+              </a>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- PROJECT 6 -->
+
+          <article class="project-card">
+
+            <div class="project-top">
+
+              <span class="tag">
+                VRID
+              </span>
+
+              <span class="tag">
+                University Internal
+              </span>
+
+              <span class="tag status-closed">
+                Completed
+              </span>
+
+            </div>
+
+
+            <h3>
+
+              Integración de sensores remotos, herramientas fisiológicas
+              y genómicas para la selección de individuos de peumo
+              resistentes a sequía
+
+            </h3>
+
+
+            <div class="project-meta">
+
+              <div class="meta-item">
+
+                <span class="meta-label">
+                  Period
+                </span>
+
+                <span class="meta-value">
+                  2022 – 2024
+                </span>
+
+              </div>
+
+
+              <div class="meta-item">
+
+                <span class="meta-label">
+                  Role
+                </span>
+
+                <span class="meta-value">
+                  Co-Investigator
+                </span>
+
+              </div>
+
+            </div>
+
+
+            <div class="project-links">
+
+              <a class="project-button placeholder" href="#">
+                Project
+              </a>
+
+              <a class="project-button placeholder" href="#">
+                Publications
+              </a>
+
+              <a class="project-button placeholder" href="#">
+                Results
+              </a>
+
+            </div>
+
+          </article>
+
 
 
           <!-- PROJECT 7 -->
@@ -1064,43 +1751,73 @@
           <article class="project-card">
 
             <div class="project-top">
-              <span class="tag">CORFO</span>
-              <span class="tag">National</span>
-              <span class="tag status-closed">Closed</span>
+
+              <span class="tag">
+                CORFO
+              </span>
+
+              <span class="tag">
+                National
+              </span>
+
+              <span class="tag status-closed">
+                Closed
+              </span>
+
             </div>
 
+
             <h3>
+
               South Rivers Toolbox: Modelo para predecir el comportamiento
               de la morfología fluvial del cauce dada la ocurrencia
               de eventos climáticos extremos
+
             </h3>
+
 
             <div class="project-meta">
 
               <div class="meta-item">
-                <span class="meta-label">Periodo</span>
-                <span class="meta-value">2019 – 2022</span>
+
+                <span class="meta-label">
+                  Period
+                </span>
+
+                <span class="meta-value">
+                  2019 – 2022
+                </span>
+
               </div>
 
+
               <div class="meta-item">
-                <span class="meta-label">Rol</span>
-                <span class="meta-value">Director General</span>
+
+                <span class="meta-label">
+                  Role
+                </span>
+
+                <span class="meta-value">
+                  General Director
+                </span>
+
               </div>
 
             </div>
 
+
             <div class="project-links">
 
               <a class="project-button placeholder" href="#">
-                Proyecto
+                Project
               </a>
 
               <a class="project-button placeholder" href="#">
-                Publicaciones
+                Publications
               </a>
 
               <a class="project-button placeholder" href="#">
-                Resultados
+                Results
               </a>
 
             </div>
@@ -1115,100 +1832,452 @@
     </section>
 
 
-    <!-- =========================
-         PUBLICATIONS
-    ========================== -->
 
-    <section id="publications" class="about">
-
-      <div class="container">
-
-        <div class="section-label">
-          Scientific output
-        </div>
-
-        <h2 class="section-title">
-          Publications
-        </h2>
-
-        <p class="section-description">
-          Scientific publications associated with HydroGeoAI Lab
-          research projects will be available here.
-        </p>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
+    <!-- =========================================================
          TEAM
-    ========================== -->
+    ========================================================== -->
 
-    <section id="team">
+    <section class="team-section" id="team">
 
       <div class="container">
+
 
         <div class="section-label">
           People
         </div>
 
+
         <h2 class="section-title">
           Our Team
         </h2>
 
+
         <p class="section-description">
-          Researchers, collaborators and students working
-          across remote sensing, artificial intelligence,
-          hydrology and fluvial sciences.
+
+          Researchers working at the intersection of remote sensing,
+          artificial intelligence, hydrology, geomorphology and
+          environmental sciences.
+
         </p>
+
+
+
+        <div class="team-grid">
+
+
+          <!-- ===================================================
+               SANTIAGO YEPEZ
+          ==================================================== -->
+
+          <article class="team-card">
+
+            <div class="team-content">
+
+
+              <div class="team-header">
+
+
+                <!--
+                  FUTURE PHOTO:
+
+                  equipo/
+                  └── SY/
+                      └── sy.jpeg
+                -->
+
+                <div class="profile-photo">
+
+                  <span class="profile-initials">
+                    SY
+                  </span>
+
+                  <img
+                    src="equipo/SY/sy.jpeg"
+                    alt="Santiago Yépez"
+                    onerror="this.style.display='none'"
+                  >
+
+                </div>
+
+
+                <div class="team-title">
+
+                  <span class="leader-badge">
+                    Lab Leader
+                  </span>
+
+                  <h3>
+                    Santiago Paúl Yépez
+                  </h3>
+
+                  <div class="team-role">
+                    Principal Investigator · HydroGeoAI Lab
+                  </div>
+
+                  <div class="team-affiliation">
+                    University of Concepción · Chile
+                  </div>
+
+                </div>
+
+
+              </div>
+
+
+              <p class="team-bio">
+
+                Researcher specializing in fluvial geomorphology,
+                hydrology and advanced remote sensing. His research
+                integrates multiscale and hyperspectral observations
+                to study river and catchment dynamics, sediment
+                transport, water quality, vegetation and environmental
+                processes.
+
+              </p>
+
+
+              <div class="research-interests">
+
+                <span class="interest">
+                  Fluvial Geomorphology
+                </span>
+
+                <span class="interest">
+                  Hydrology
+                </span>
+
+                <span class="interest">
+                  Hyperspectral Remote Sensing
+                </span>
+
+                <span class="interest">
+                  Sediment Transport
+                </span>
+
+                <span class="interest">
+                  Water Quality
+                </span>
+
+                <span class="interest">
+                  UAV & Photogrammetry
+                </span>
+
+              </div>
+
+
+              <div class="profile-links">
+
+
+                <a
+                  class="profile-link"
+                  href="https://www.linkedin.com/in/santiago-y%C3%A9pez-75409224/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn ↗
+                </a>
+
+
+                <a
+                  class="profile-link"
+                  href="https://www.researchgate.net/profile/Santiago-Yepez-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ResearchGate ↗
+                </a>
+
+
+                <a
+                  class="profile-link"
+                  href="https://orcid.org/0000-0002-7879-7094"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ORCID ↗
+                </a>
+
+
+                <a
+                  class="profile-link"
+                  href="https://forestal2.udec.cl/departamentos/manejo-de-bosques-y-medio-ambiente/academicos/santiago-yepez/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Website ↗
+                </a>
+
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- ===================================================
+               BASTIAN RIVAS
+          ==================================================== -->
+
+          <article class="team-card">
+
+            <div class="team-content">
+
+
+              <div class="team-header">
+
+
+                <!--
+                  FUTURE PHOTO:
+
+                  equipo/
+                  └── BR/
+                      └── br.jpeg
+                -->
+
+                <div class="profile-photo">
+
+                  <span class="profile-initials">
+                    BR
+                  </span>
+
+                  <img
+                    src="equipo/BR/br.jpeg"
+                    alt="Bastián Rivas Maldonado"
+                    onerror="this.style.display='none'"
+                  >
+
+                </div>
+
+
+                <div class="team-title">
+
+                  <span class="member-badge">
+                    Researcher
+                  </span>
+
+                  <h3>
+                    Bastián Rivas Maldonado
+                  </h3>
+
+                  <div class="team-role">
+                    Forest Engineer · M.Sc. Student
+                  </div>
+
+                  <div class="team-affiliation">
+                    Forest Sciences · Chile
+                  </div>
+
+                </div>
+
+
+              </div>
+
+
+              <p class="team-bio">
+
+                Forest engineer focused on integrating computational
+                methods, remote sensing and artificial intelligence
+                to study forest and environmental systems. His work
+                explores hydrological modeling, hyperspectral imagery,
+                LiDAR, point clouds, 3D reconstruction and machine
+                learning for environmental analysis and digital plant
+                phenotyping.
+
+              </p>
+
+
+              <div class="research-interests">
+
+                <span class="interest">
+                  Artificial Intelligence
+                </span>
+
+                <span class="interest">
+                  Remote Sensing
+                </span>
+
+                <span class="interest">
+                  Hydrological Modeling
+                </span>
+
+                <span class="interest">
+                  Hyperspectral Imaging
+                </span>
+
+                <span class="interest">
+                  LiDAR
+                </span>
+
+                <span class="interest">
+                  3D Reconstruction
+                </span>
+
+                <span class="interest">
+                  Plant Phenotyping
+                </span>
+
+              </div>
+
+
+              <div class="profile-links">
+
+
+                <a
+                  class="profile-link"
+                  href="https://www.linkedin.com/in/barm-bastian"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn ↗
+                </a>
+
+
+                <a
+                  class="profile-link"
+                  href="https://www.researchgate.net/profile/Bastian-Rivas-Maldonado?ev=prf_overview"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ResearchGate ↗
+                </a>
+
+
+                <a
+                  class="profile-link"
+                  href="https://orcid.org/0009-0002-2931-9683"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ORCID ↗
+                </a>
+
+
+                <a
+                  class="profile-link"
+                  href="https://barm2000.github.io/Bastian-Rivas/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Website ↗
+                </a>
+
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+        </div>
 
       </div>
 
     </section>
 
 
-    <!-- =========================
+
+    <!-- =========================================================
+         PUBLICATIONS
+    ========================================================== -->
+
+    <section
+      id="publications"
+      class="publications-section"
+    >
+
+      <div class="container">
+
+
+        <div class="section-label">
+          Scientific output
+        </div>
+
+
+        <h2 class="section-title">
+          Publications
+        </h2>
+
+
+        <p class="section-description">
+
+          Scientific publications associated with HydroGeoAI Lab
+          research projects.
+
+        </p>
+
+
+        <div class="coming-soon">
+
+          Publications will be incorporated progressively,
+          including direct links to articles, DOI records
+          and their associated HydroGeoAI research projects.
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
          CONTACT
-    ========================== -->
+    ========================================================== -->
 
     <section class="contact" id="contact">
 
       <div class="container">
 
+
         <div class="section-label">
           HydroGeoAI Lab
         </div>
+
 
         <h2 class="section-title">
           Contact & Collaboration
         </h2>
 
+
         <p class="section-description">
+
           We welcome research collaborations related to remote sensing,
-          artificial intelligence, hydrology, aquatic environments
-          and fluvial systems.
+          artificial intelligence, hydrology, aquatic environments,
+          fluvial systems, hyperspectral imaging and environmental
+          monitoring.
+
         </p>
+
 
       </div>
 
     </section>
 
+
   </main>
 
 
-  <!-- =========================
+
+  <!-- =========================================================
        FOOTER
-  ========================== -->
+  ========================================================== -->
 
   <footer>
 
     <p>
-      © 2026 HydroGeoAI Lab · Advanced Remote Sensing and Artificial
-      Intelligence for Aquatic & Fluvial Systems
+
+      © 2026 HydroGeoAI Lab · Advanced Remote Sensing and
+      Artificial Intelligence for Aquatic & Fluvial Systems
+
     </p>
 
   </footer>
 
+
 </body>
 </html>
+```
