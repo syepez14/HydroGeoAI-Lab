@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "type": "FONDECYT",
+    "scope": "National",
+    "status": "Ongoing",
+    "period": "2026 – 2029",
+    "role": "Principal Investigator",
+    "summary": "Short project description.",
+    "project": "",
+    "publications": "",
+    "results": "",
+    "name": "EXAMPLE PROJECT"
+  }
+]

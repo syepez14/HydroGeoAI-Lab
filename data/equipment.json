@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "model": "Equipment model",
+    "summary": "Short equipment description.",
+    "website": "",
+    "name": "EXAMPLE EQUIPMENT"
+  }
+]

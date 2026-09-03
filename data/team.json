@@ -1,1 +1,43 @@
-[]
+[
+  {
+    "position": "Researcher · HydroGeoAI Lab",
+    "studies": "Forest Engineer · M.Sc. Student",
+    "organization": "Forest Sciences · Chile",
+    "summary": "Forest engineer focused on integrating computational methods, remote sensing and artificial intelligence to study forest and environmental systems. His work explores hydrological modeling, hyperspectral imagery, LiDAR, point clouds, 3D reconstruction and machine learning for environmental analysis and digital plant phenotyping.",
+    "keywords": [
+      "Artificial Intelligence",
+      "Remote Sensing",
+      "Hydrological Modeling",
+      "Hyperspectral Imaging",
+      "LiDAR",
+      "3D Reconstruction",
+      "Plant Phenotyping"
+    ],
+    "linkedin": "https://www.linkedin.com/in/barm-bastian",
+    "researchgate": "https://www.researchgate.net/profile/Bastian-Rivas-Maldonado?ev=prf_overview",
+    "orcid": "https://orcid.org/0009-0002-2931-9683",
+    "website": "https://barm2000.github.io/Bastian-Rivas/",
+    "name": "Bastian Rivas",
+    "photo": "Team/Bastian Rivas/photo.jpg"
+  },
+  {
+    "position": "Principal Investigator · HydroGeoAI Lab",
+    "studies": "Forest Sciences",
+    "organization": "University of Concepción · Chile",
+    "summary": "Researcher specializing in fluvial geomorphology, hydrology and advanced remote sensing. His research integrates multiscale and hyperspectral observations to study river and catchment dynamics, sediment transport, water quality, vegetation and environmental processes.",
+    "keywords": [
+      "Fluvial Geomorphology",
+      "Hydrology",
+      "Hyperspectral Remote Sensing",
+      "Sediment Transport",
+      "Water Quality",
+      "UAV & Photogrammetry"
+    ],
+    "linkedin": "https://www.linkedin.com/in/santiago-y%C3%A9pez-75409224/",
+    "researchgate": "https://www.researchgate.net/profile/Santiago-Yepez-2",
+    "orcid": "https://orcid.org/0000-0002-7879-7094",
+    "website": "https://forestal2.udec.cl/departamentos/manejo-de-bosques-y-medio-ambiente/academicos/santiago-yepez/",
+    "name": "Santiago Yepez",
+    "photo": "Team/Santiago Yepez/photo.jpg"
+  }
+]

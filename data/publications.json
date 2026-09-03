@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "year": "2026",
+    "authors": "Author A; Author B",
+    "journal": "Journal Name",
+    "project_name": "Related project",
+    "doi": "",
+    "pdf": "",
+    "name": "EXAMPLE PUBLICATION"
+  }
+]
