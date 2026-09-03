@@ -1,0 +1,6 @@
+Year: 2026
+Authors: Author A; Author B
+Journal: Journal Name
+Project Name: Related project
+DOI:
+PDF:

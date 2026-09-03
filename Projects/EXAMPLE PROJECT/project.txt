@@ -1,0 +1,9 @@
+Type: FONDECYT
+Scope: National
+Status: Ongoing
+Period: 2026 – 2029
+Role: Principal Investigator
+Summary: Short project description.
+Project:
+Publications:
+Results:
