@@ -1,5 +1,5 @@
 Organization: Universidad Católica del Maule
 Country: Chile
 Summary: Ciencias aplicadas.
-Website:https:https://victorosores.github.io/
+Website:https://victorosores.github.io/
 LinkedIn:https://www.linkedin.com/in/victorosores/
