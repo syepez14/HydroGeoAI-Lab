@@ -6,5 +6,13 @@
     "website": "",
     "linkedin": "",
     "name": "EXAMPLE INSTITUTION"
+  },
+  {
+    "organization": "Universidad de Concepción",
+    "country": "Chile",
+    "summary": "Geomorfología fluvial, transporte de sedimentos.",
+    "website": "https://faug.udec.cl/?staff_id=156",
+    "linkedin": "",
+    "name": "María Alejandra Elgueta"
   }
 ]
