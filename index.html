@@ -1,9 +1,14 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
   <title>HydroGeoAI Lab</title>
 
@@ -12,15 +17,19 @@
     content="HydroGeoAI Lab - Advanced Remote Sensing and Artificial Intelligence for Aquatic & Fluvial Systems"
   >
 
+
   <style>
 
     /* =========================================================
-       COLORS
+       COLOR PALETTE
     ========================================================= */
 
     :root {
+
       --primary: #087f9c;
       --primary-dark: #04566c;
+      --primary-deep: #073b4b;
+
       --primary-light: #29b6d1;
       --aqua: #62d6e8;
 
@@ -30,10 +39,15 @@
 
       --text: #17323b;
       --muted: #647b83;
+
       --border: #d6edf2;
 
-      --shadow: 0 10px 30px rgba(0, 87, 112, 0.10);
-      --shadow-strong: 0 20px 50px rgba(0, 87, 112, 0.16);
+      --shadow:
+        0 10px 30px rgba(0, 87, 112, 0.10);
+
+      --shadow-strong:
+        0 20px 50px rgba(0, 87, 112, 0.16);
+
     }
 
 
@@ -47,11 +61,14 @@
       box-sizing: border-box;
     }
 
+
     html {
       scroll-behavior: smooth;
     }
 
+
     body {
+
       font-family:
         Inter,
         -apple-system,
@@ -63,49 +80,81 @@
         sans-serif;
 
       background: var(--background);
+
       color: var(--text);
+
       line-height: 1.6;
+
     }
+
 
     section {
-      padding: 90px 25px;
+
+      padding:
+        95px
+        25px;
+
+      scroll-margin-top: 85px;
+
     }
+
 
     .container {
+
       max-width: 1200px;
+
       margin: auto;
+
     }
 
+
     .section-label {
+
       color: var(--primary);
 
-      font-size: 0.8rem;
+      font-size: 0.78rem;
+
       font-weight: 800;
 
       text-transform: uppercase;
+
       letter-spacing: 2px;
 
       margin-bottom: 10px;
+
     }
 
+
     .section-title {
+
       color: var(--primary-dark);
 
-      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-size:
+        clamp(
+          2rem,
+          4vw,
+          3.2rem
+        );
+
       line-height: 1.15;
 
       margin-bottom: 15px;
+
     }
 
+
     .section-description {
-      max-width: 760px;
+
+      max-width: 780px;
 
       color: var(--muted);
 
       font-size: 1.05rem;
 
       margin-bottom: 45px;
+
     }
+
 
 
     /* =========================================================
@@ -113,173 +162,155 @@
     ========================================================= */
 
     header {
+
       position: sticky;
+
       top: 0;
+
       z-index: 1000;
 
-      background: rgba(255, 255, 255, 0.94);
+      background:
+        rgba(
+          255,
+          255,
+          255,
+          0.94
+        );
+
       backdrop-filter: blur(12px);
 
-      border-bottom: 1px solid var(--border);
+      border-bottom:
+        1px
+        solid
+        var(--border);
+
     }
 
+
     .navbar {
+
       max-width: 1200px;
+
       margin: auto;
 
       display: flex;
+
       align-items: center;
+
       justify-content: space-between;
 
-      padding: 14px 25px;
+      padding:
+        13px
+        25px;
+
+      gap: 25px;
+
     }
+
 
     .brand {
+
       display: flex;
+
       align-items: center;
-      gap: 14px;
+
+      gap: 13px;
 
       text-decoration: none;
+
       color: var(--text);
+
+      flex-shrink: 0;
+
     }
+
 
     .brand img {
-      height: 58px;
+
+      height: 56px;
+
       width: auto;
+
       object-fit: contain;
+
     }
 
+
     .brand-name {
-      font-size: 1.2rem;
+
+      font-size: 1.15rem;
+
       font-weight: 800;
 
       color: var(--primary-dark);
+
     }
+
 
     nav {
+
       display: flex;
+
       align-items: center;
-      gap: 28px;
+
+      justify-content: flex-end;
+
+      flex-wrap: wrap;
+
+      gap:
+        10px
+        23px;
+
     }
 
+
     nav a {
+
       color: var(--text);
 
       text-decoration: none;
 
-      font-size: 0.95rem;
+      font-size: 0.88rem;
+
       font-weight: 600;
 
       transition: 0.2s ease;
+
     }
 
+
     nav a:hover {
+
       color: var(--primary);
+
     }
+
 
 
     /* =========================================================
-       HERO
+       BUTTONS
     ========================================================= */
 
-    .hero {
-      position: relative;
-      overflow: hidden;
-
-      background:
-        radial-gradient(
-          circle at 80% 20%,
-          rgba(98, 214, 232, 0.35),
-          transparent 35%
-        ),
-        linear-gradient(
-          135deg,
-          #effcff 0%,
-          #d9f5fa 45%,
-          #eefbfc 100%
-        );
-    }
-
-    .hero-container {
-      max-width: 1200px;
-      min-height: 560px;
-
-      margin: auto;
-
-      padding: 90px 25px;
-
-      display: grid;
-
-      grid-template-columns: 1.15fr 0.85fr;
-
-      align-items: center;
-
-      gap: 60px;
-    }
-
-    .hero-label {
-      display: inline-block;
-
-      color: var(--primary);
-
-      background: rgba(8, 127, 156, 0.10);
-
-      border: 1px solid rgba(8, 127, 156, 0.15);
-
-      padding: 7px 14px;
-
-      border-radius: 999px;
-
-      font-size: 0.85rem;
-      font-weight: 700;
-
-      margin-bottom: 22px;
-    }
-
-    .hero h1 {
-      font-size: clamp(3rem, 6vw, 5.5rem);
-
-      line-height: 0.95;
-
-      letter-spacing: -3px;
-
-      color: var(--primary-dark);
-
-      margin-bottom: 26px;
-    }
-
-    .hero-description {
-      font-size: 1.35rem;
-
-      max-width: 680px;
-
-      color: #385963;
-
-      line-height: 1.6;
-
-      margin-bottom: 35px;
-    }
-
-    .hero-buttons {
-      display: flex;
-      flex-wrap: wrap;
-
-      gap: 14px;
-    }
-
     .btn {
+
       display: inline-flex;
 
       align-items: center;
+
       justify-content: center;
+
+      gap: 7px;
 
       text-decoration: none;
 
-      padding: 12px 20px;
+      padding:
+        12px
+        20px;
 
       border-radius: 8px;
 
       font-weight: 700;
+
       font-size: 0.92rem;
 
       cursor: pointer;
@@ -288,44 +319,234 @@
         transform 0.2s ease,
         box-shadow 0.2s ease,
         background 0.2s ease;
+
     }
+
 
     .btn-primary {
+
       background: var(--primary);
+
       color: white;
+
     }
+
 
     .btn-primary:hover {
+
       background: var(--primary-dark);
 
-      transform: translateY(-2px);
+      transform:
+        translateY(-2px);
 
-      box-shadow: var(--shadow);
+      box-shadow:
+        var(--shadow);
+
     }
 
+
     .btn-outline {
-      border: 1px solid var(--primary);
+
+      border:
+        1px
+        solid
+        var(--primary);
 
       color: var(--primary);
 
       background: transparent;
+
     }
 
+
     .btn-outline:hover {
+
       background: var(--primary);
 
       color: white;
+
     }
 
+
+    /* =========================================================
+       HERO / HOME
+    ========================================================= */
+
+    .hero {
+
+      position: relative;
+
+      overflow: hidden;
+
+      padding: 0;
+
+      background:
+
+        radial-gradient(
+          circle at 80% 20%,
+          rgba(98, 214, 232, 0.38),
+          transparent 35%
+        ),
+
+        radial-gradient(
+          circle at 10% 90%,
+          rgba(41, 182, 209, 0.13),
+          transparent 30%
+        ),
+
+        linear-gradient(
+          135deg,
+          #effcff 0%,
+          #d9f5fa 45%,
+          #eefbfc 100%
+        );
+
+    }
+
+
+    .hero-container {
+
+      max-width: 1200px;
+
+      min-height: 610px;
+
+      margin: auto;
+
+      padding:
+        90px
+        25px;
+
+      display: grid;
+
+      grid-template-columns:
+        1.15fr
+        0.85fr;
+
+      align-items: center;
+
+      gap: 70px;
+
+    }
+
+
+    .hero-label {
+
+      display: inline-block;
+
+      color: var(--primary);
+
+      background:
+        rgba(
+          8,
+          127,
+          156,
+          0.10
+        );
+
+      border:
+        1px
+        solid
+        rgba(
+          8,
+          127,
+          156,
+          0.15
+        );
+
+      padding:
+        7px
+        14px;
+
+      border-radius: 999px;
+
+      font-size: 0.83rem;
+
+      font-weight: 700;
+
+      margin-bottom: 22px;
+
+    }
+
+
+    .hero h1 {
+
+      font-size:
+        clamp(
+          3.3rem,
+          6vw,
+          5.6rem
+        );
+
+      line-height: 0.95;
+
+      letter-spacing: -3px;
+
+      color: var(--primary-dark);
+
+      margin-bottom: 27px;
+
+    }
+
+
+    .hero-description {
+
+      font-size: 1.32rem;
+
+      max-width: 680px;
+
+      color: #385963;
+
+      line-height: 1.6;
+
+      margin-bottom: 34px;
+
+    }
+
+
+    .hero-buttons {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 13px;
+
+    }
+
+
+    /* Right side */
+
+    .hero-visual {
+
+      display: flex;
+
+      flex-direction: column;
+
+      align-items: center;
+
+      gap: 18px;
+
+    }
+
+
     .hero-logo {
+
       display: flex;
 
       justify-content: center;
+
       align-items: center;
+
     }
 
+
     .hero-logo img {
-      width: min(100%, 400px);
+
+      width:
+        min(
+          100%,
+          390px
+        );
 
       background: white;
 
@@ -333,11 +554,128 @@
 
       border-radius: 24px;
 
-      box-shadow:
-        0 25px 70px rgba(0, 91, 120, 0.15);
+      border:
+        1px
+        solid
+        rgba(
+          8,
+          127,
+          156,
+          0.10
+        );
 
-      border: 1px solid rgba(8, 127, 156, 0.10);
+      box-shadow:
+        0
+        25px
+        70px
+        rgba(
+          0,
+          91,
+          120,
+          0.15
+        );
+
     }
+
+
+
+    /* =========================================================
+       QR CODE
+    ========================================================= */
+
+    .qr-card {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 14px;
+
+      width: 100%;
+
+      max-width: 390px;
+
+      padding:
+        12px
+        16px;
+
+      border-radius: 15px;
+
+      background:
+        rgba(
+          255,
+          255,
+          255,
+          0.85
+        );
+
+      border:
+        1px
+        solid
+        var(--border);
+
+      box-shadow:
+        0
+        8px
+        25px
+        rgba(
+          0,
+          91,
+          120,
+          0.08
+        );
+
+    }
+
+
+    .qr-card img {
+
+      width: 82px;
+
+      height: 82px;
+
+      object-fit: contain;
+
+      border-radius: 7px;
+
+      background: white;
+
+      padding: 3px;
+
+    }
+
+
+    .qr-info {
+
+      flex: 1;
+
+    }
+
+
+    .qr-title {
+
+      color:
+        var(--primary-dark);
+
+      font-weight: 800;
+
+      font-size: 0.92rem;
+
+      margin-bottom: 2px;
+
+    }
+
+
+    .qr-text {
+
+      color: var(--muted);
+
+      font-size: 0.76rem;
+
+      line-height: 1.45;
+
+    }
+
 
 
     /* =========================================================
@@ -345,50 +683,179 @@
     ========================================================= */
 
     .about {
+
       background: white;
+
     }
+
 
     .about-grid {
+
       display: grid;
 
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns:
+        repeat(
+          3,
+          1fr
+        );
 
       gap: 22px;
+
     }
 
+
     .about-card {
-      background: var(--surface-soft);
 
-      border: 1px solid var(--border);
+      background:
+        var(--surface-soft);
 
-      border-radius: 14px;
+      border:
+        1px
+        solid
+        var(--border);
+
+      border-radius: 15px;
 
       padding: 30px;
 
       transition: 0.2s ease;
+
     }
+
 
     .about-card:hover {
-      transform: translateY(-4px);
 
-      box-shadow: var(--shadow);
+      transform:
+        translateY(-4px);
+
+      box-shadow:
+        var(--shadow);
+
     }
 
+
     .about-icon {
+
       font-size: 2rem;
 
       margin-bottom: 12px;
+
     }
+
 
     .about-card h3 {
-      color: var(--primary-dark);
+
+      color:
+        var(--primary-dark);
 
       margin-bottom: 10px;
+
     }
 
+
     .about-card p {
+
       color: var(--muted);
+
     }
+
+
+
+    /* =========================================================
+       MISSION & VISION
+    ========================================================= */
+
+    .mission-vision {
+
+      margin-top: 55px;
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(
+          2,
+          1fr
+        );
+
+      gap: 25px;
+
+    }
+
+
+    .mv-card {
+
+      position: relative;
+
+      overflow: hidden;
+
+      padding: 35px;
+
+      border-radius: 18px;
+
+      background: white;
+
+      border:
+        1px
+        solid
+        var(--border);
+
+      box-shadow:
+        0
+        8px
+        26px
+        rgba(
+          0,
+          91,
+          120,
+          0.07
+        );
+
+    }
+
+
+    .mv-card::before {
+
+      content: "";
+
+      position: absolute;
+
+      left: 0;
+
+      top: 0;
+
+      width: 6px;
+
+      height: 100%;
+
+      background:
+        linear-gradient(
+          var(--primary),
+          var(--aqua)
+        );
+
+    }
+
+
+    .mv-card h3 {
+
+      color:
+        var(--primary-dark);
+
+      font-size: 1.35rem;
+
+      margin-bottom: 12px;
+
+    }
+
+
+    .mv-card p {
+
+      color: var(--muted);
+
+      line-height: 1.75;
+
+    }
+
 
 
     /* =========================================================
@@ -396,45 +863,81 @@
     ========================================================= */
 
     .projects {
-      background: var(--background);
+
+      background:
+        var(--background);
+
     }
+
 
     .projects-grid {
+
       display: grid;
 
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns:
+        repeat(
+          2,
+          minmax(
+            0,
+            1fr
+          )
+        );
 
       gap: 25px;
+
     }
 
+
     .project-card {
+
       background: white;
 
-      border: 1px solid var(--border);
+      border:
+        1px
+        solid
+        var(--border);
 
       border-radius: 16px;
 
       padding: 30px;
 
       display: flex;
+
       flex-direction: column;
 
       min-height: 380px;
 
-      box-shadow: 0 4px 20px rgba(0, 91, 120, 0.05);
+      box-shadow:
+        0
+        4px
+        20px
+        rgba(
+          0,
+          91,
+          120,
+          0.05
+        );
 
       transition:
         transform 0.25s ease,
         box-shadow 0.25s ease;
+
     }
+
 
     .project-card:hover {
-      transform: translateY(-5px);
 
-      box-shadow: var(--shadow);
+      transform:
+        translateY(-5px);
+
+      box-shadow:
+        var(--shadow);
+
     }
 
+
     .project-top {
+
       display: flex;
 
       flex-wrap: wrap;
@@ -442,68 +945,103 @@
       gap: 8px;
 
       margin-bottom: 22px;
+
     }
 
+
     .tag {
+
       display: inline-flex;
 
-      padding: 6px 11px;
+      padding:
+        6px
+        11px;
 
       border-radius: 999px;
 
       font-size: 0.72rem;
+
       font-weight: 800;
 
       background: #e4f6fa;
 
-      color: var(--primary-dark);
+      color:
+        var(--primary-dark);
 
-      border: 1px solid #ccebf1;
+      border:
+        1px
+        solid
+        #ccebf1;
+
     }
 
+
     .tag.status-active {
+
       background: #e4f7ed;
 
       color: #19714b;
 
-      border-color: #bce8d1;
+      border-color:
+        #bce8d1;
+
     }
 
+
     .tag.status-closed {
+
       background: #eef1f2;
 
       color: #5f6d72;
 
-      border-color: #dbe2e4;
+      border-color:
+        #dbe2e4;
+
     }
+
 
     .project-card h3 {
+
       color: var(--text);
 
-      font-size: 1.22rem;
+      font-size: 1.2rem;
 
-      line-height: 1.4;
+      line-height: 1.45;
 
       margin-bottom: 24px;
+
     }
 
+
     .project-meta {
+
       display: grid;
 
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns:
+        1fr
+        1fr;
 
       gap: 12px;
 
       margin-bottom: 25px;
+
     }
+
 
     .meta-item {
-      border-left: 3px solid var(--aqua);
+
+      border-left:
+        3px
+        solid
+        var(--aqua);
 
       padding-left: 12px;
+
     }
 
+
     .meta-label {
+
       display: block;
 
       color: var(--muted);
@@ -517,63 +1055,93 @@
       letter-spacing: 0.8px;
 
       margin-bottom: 2px;
+
     }
+
 
     .meta-value {
-      color: var(--primary-dark);
+
+      color:
+        var(--primary-dark);
 
       font-size: 0.9rem;
+
       font-weight: 700;
+
     }
 
+
     .project-links {
+
       margin-top: auto;
 
       padding-top: 20px;
 
-      border-top: 1px solid var(--border);
+      border-top:
+        1px
+        solid
+        var(--border);
 
       display: flex;
 
       flex-wrap: wrap;
 
       gap: 9px;
+
     }
 
+
     .project-button {
+
       text-decoration: none;
 
       color: var(--primary);
 
       background: white;
 
-      border: 1px solid var(--primary);
+      border:
+        1px
+        solid
+        var(--primary);
 
-      padding: 8px 13px;
+      padding:
+        8px
+        13px;
 
       border-radius: 7px;
 
       font-size: 0.78rem;
+
       font-weight: 700;
 
       transition: 0.2s ease;
+
     }
+
 
     .project-button:hover {
+
       color: white;
 
-      background: var(--primary);
+      background:
+        var(--primary);
+
     }
 
+
     .project-button.placeholder {
+
       color: #83979d;
 
-      border-color: #cbdadd;
+      border-color:
+        #cbdadd;
 
       background: #f8fbfc;
 
       cursor: default;
+
     }
+
 
 
     /* =========================================================
@@ -581,50 +1149,86 @@
     ========================================================= */
 
     .team-section {
+
       background: white;
+
     }
+
 
     .team-grid {
+
       display: grid;
 
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns:
+        repeat(
+          2,
+          minmax(
+            0,
+            1fr
+          )
+        );
 
       gap: 30px;
+
     }
 
+
     .team-card {
+
       position: relative;
 
       overflow: hidden;
 
       background: white;
 
-      border: 1px solid var(--border);
+      border:
+        1px
+        solid
+        var(--border);
 
       border-radius: 20px;
 
-      box-shadow: 0 8px 28px rgba(0, 91, 120, 0.08);
+      box-shadow:
+        0
+        8px
+        28px
+        rgba(
+          0,
+          91,
+          120,
+          0.08
+        );
 
       transition:
         transform 0.25s ease,
         box-shadow 0.25s ease;
+
     }
+
 
     .team-card:hover {
-      transform: translateY(-6px);
 
-      box-shadow: var(--shadow-strong);
+      transform:
+        translateY(-6px);
+
+      box-shadow:
+        var(--shadow-strong);
+
     }
 
+
     .team-card::before {
+
       content: "";
 
       position: absolute;
 
       top: 0;
+
       left: 0;
 
       width: 100%;
+
       height: 6px;
 
       background:
@@ -634,13 +1238,19 @@
           var(--primary-light),
           var(--aqua)
         );
+
     }
+
 
     .team-content {
+
       padding: 32px;
+
     }
 
+
     .team-header {
+
       display: flex;
 
       align-items: center;
@@ -648,15 +1258,16 @@
       gap: 24px;
 
       margin-bottom: 24px;
+
     }
 
 
-    /* Photo container */
-
     .profile-photo {
+
       position: relative;
 
       width: 125px;
+
       height: 125px;
 
       min-width: 125px;
@@ -672,57 +1283,86 @@
           var(--aqua)
         );
 
-      border: 5px solid #e9f8fb;
+      border:
+        5px
+        solid
+        #e9f8fb;
 
-      box-shadow: 0 8px 22px rgba(0, 99, 126, 0.17);
+      box-shadow:
+        0
+        8px
+        22px
+        rgba(
+          0,
+          99,
+          126,
+          0.17
+        );
 
       display: flex;
 
       justify-content: center;
+
       align-items: center;
+
     }
 
+
     .profile-photo img {
+
       position: absolute;
 
       width: 100%;
+
       height: 100%;
 
       object-fit: cover;
 
       z-index: 2;
+
     }
 
+
     .profile-initials {
+
       color: white;
 
       font-size: 2rem;
+
       font-weight: 800;
 
-      letter-spacing: 1px;
-
       z-index: 1;
+
     }
 
-
-    /* Person information */
 
     .team-title {
+
       flex: 1;
+
     }
 
-    .leader-badge {
+
+    .leader-badge,
+    .member-badge {
+
       display: inline-block;
 
-      color: var(--primary-dark);
+      color:
+        var(--primary-dark);
 
       background: #e4f6fa;
 
-      border: 1px solid #c9ebf2;
+      border:
+        1px
+        solid
+        #c9ebf2;
 
       border-radius: 999px;
 
-      padding: 5px 10px;
+      padding:
+        5px
+        10px;
 
       margin-bottom: 9px;
 
@@ -733,74 +1373,63 @@
       text-transform: uppercase;
 
       letter-spacing: 1px;
+
     }
 
-    .member-badge {
-      display: inline-block;
-
-      color: #356675;
-
-      background: #edf8fa;
-
-      border: 1px solid #d3edf2;
-
-      border-radius: 999px;
-
-      padding: 5px 10px;
-
-      margin-bottom: 9px;
-
-      font-size: 0.7rem;
-
-      font-weight: 800;
-
-      text-transform: uppercase;
-
-      letter-spacing: 1px;
-    }
 
     .team-title h3 {
-      color: var(--primary-dark);
 
-      font-size: 1.55rem;
+      color:
+        var(--primary-dark);
+
+      font-size: 1.5rem;
 
       line-height: 1.2;
 
       margin-bottom: 6px;
+
     }
+
 
     .team-role {
-      color: var(--primary);
 
-      font-size: 0.92rem;
+      color:
+        var(--primary);
+
+      font-size: 0.9rem;
+
       font-weight: 700;
+
     }
 
+
     .team-affiliation {
-      color: var(--muted);
+
+      color:
+        var(--muted);
 
       font-size: 0.82rem;
 
       margin-top: 3px;
+
     }
 
 
-    /* Biography */
-
     .team-bio {
+
       color: #506a72;
 
-      font-size: 0.95rem;
+      font-size: 0.94rem;
 
       line-height: 1.75;
 
       margin-bottom: 20px;
+
     }
 
 
-    /* Research interests */
-
     .research-interests {
+
       display: flex;
 
       flex-wrap: wrap;
@@ -808,28 +1437,38 @@
       gap: 7px;
 
       margin-bottom: 24px;
+
     }
 
+
     .interest {
-      padding: 5px 10px;
+
+      padding:
+        5px
+        10px;
 
       border-radius: 6px;
 
-      background: var(--surface-soft);
+      background:
+        var(--surface-soft);
 
-      border: 1px solid var(--border);
+      border:
+        1px
+        solid
+        var(--border);
 
-      color: var(--primary-dark);
+      color:
+        var(--primary-dark);
 
       font-size: 0.72rem;
 
       font-weight: 700;
+
     }
 
 
-    /* Profile links */
-
     .profile-links {
+
       display: flex;
 
       flex-wrap: wrap;
@@ -838,10 +1477,16 @@
 
       padding-top: 20px;
 
-      border-top: 1px solid var(--border);
+      border-top:
+        1px
+        solid
+        var(--border);
+
     }
 
+
     .profile-link {
+
       display: inline-flex;
 
       align-items: center;
@@ -850,30 +1495,344 @@
 
       text-decoration: none;
 
-      padding: 8px 12px;
+      padding:
+        8px
+        12px;
 
       border-radius: 7px;
 
-      border: 1px solid var(--primary);
+      border:
+        1px
+        solid
+        var(--primary);
 
-      color: var(--primary);
+      color:
+        var(--primary);
 
       background: white;
 
-      font-size: 0.78rem;
+      font-size: 0.77rem;
 
       font-weight: 700;
 
       transition: 0.2s ease;
+
     }
 
+
     .profile-link:hover {
-      background: var(--primary);
+
+      background:
+        var(--primary);
 
       color: white;
 
-      transform: translateY(-2px);
+      transform:
+        translateY(-2px);
+
     }
+
+
+
+    /* =========================================================
+       COLLABORATIONS
+    ========================================================= */
+
+    .collaborations-section {
+
+      background:
+        var(--background);
+
+    }
+
+
+    .collaboration-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(
+          2,
+          1fr
+        );
+
+      gap: 28px;
+
+    }
+
+
+    .collaboration-card {
+
+      position: relative;
+
+      overflow: hidden;
+
+      background: white;
+
+      border:
+        1px
+        solid
+        var(--border);
+
+      border-radius: 19px;
+
+      padding: 33px;
+
+      min-height: 280px;
+
+      box-shadow:
+        0
+        7px
+        25px
+        rgba(
+          0,
+          91,
+          120,
+          0.07
+        );
+
+    }
+
+
+    .collaboration-card::before {
+
+      content: "";
+
+      position: absolute;
+
+      top: 0;
+
+      left: 0;
+
+      width: 100%;
+
+      height: 6px;
+
+      background:
+        linear-gradient(
+          90deg,
+          var(--primary-dark),
+          var(--aqua)
+        );
+
+    }
+
+
+    .collaboration-icon {
+
+      width: 56px;
+
+      height: 56px;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      border-radius: 15px;
+
+      background:
+        var(--surface-soft);
+
+      font-size: 1.7rem;
+
+      margin-bottom: 18px;
+
+    }
+
+
+    .collaboration-card h3 {
+
+      color:
+        var(--primary-dark);
+
+      font-size: 1.4rem;
+
+      margin-bottom: 12px;
+
+    }
+
+
+    .collaboration-card p {
+
+      color: var(--muted);
+
+      margin-bottom: 22px;
+
+    }
+
+
+    .future-entry {
+
+      padding:
+        12px
+        15px;
+
+      border:
+        1px
+        dashed
+        #acdce6;
+
+      border-radius: 9px;
+
+      background: #f8fdfe;
+
+      color: #739098;
+
+      font-size: 0.82rem;
+
+    }
+
+
+
+    /* =========================================================
+       RESOURCES & EQUIPMENT
+    ========================================================= */
+
+    .resources-section {
+
+      background: white;
+
+    }
+
+
+    .equipment-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(
+          4,
+          1fr
+        );
+
+      gap: 22px;
+
+    }
+
+
+    .equipment-card {
+
+      position: relative;
+
+      overflow: hidden;
+
+      background: white;
+
+      border:
+        1px
+        solid
+        var(--border);
+
+      border-radius: 17px;
+
+      transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+
+    }
+
+
+    .equipment-card:hover {
+
+      transform:
+        translateY(-5px);
+
+      box-shadow:
+        var(--shadow);
+
+    }
+
+
+    .equipment-image {
+
+      position: relative;
+
+      height: 210px;
+
+      overflow: hidden;
+
+      background:
+
+        radial-gradient(
+          circle at 70% 30%,
+          rgba(98,214,232,0.35),
+          transparent 35%
+        ),
+
+        linear-gradient(
+          135deg,
+          #e3f7fb,
+          #f4fcfd
+        );
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+    }
+
+
+    .equipment-image img {
+
+      position: absolute;
+
+      width: 100%;
+
+      height: 100%;
+
+      object-fit: cover;
+
+      z-index: 2;
+
+    }
+
+
+    .equipment-placeholder {
+
+      color:
+        var(--primary);
+
+      font-size: 2.7rem;
+
+      z-index: 1;
+
+    }
+
+
+    .equipment-info {
+
+      padding: 22px;
+
+    }
+
+
+    .equipment-info h3 {
+
+      color:
+        var(--primary-dark);
+
+      font-size: 1.1rem;
+
+      margin-bottom: 8px;
+
+    }
+
+
+    .equipment-info p {
+
+      color:
+        var(--muted);
+
+      font-size: 0.85rem;
+
+      line-height: 1.6;
+
+    }
+
 
 
     /* =========================================================
@@ -881,28 +1840,47 @@
     ========================================================= */
 
     .publications-section {
-      background: var(--background);
+
+      background:
+        var(--background);
+
     }
 
+
     .coming-soon {
-      border: 1px dashed #acdce6;
+
+      border:
+        1px
+        dashed
+        #acdce6;
 
       border-radius: 16px;
 
       padding: 35px;
 
-      color: var(--muted);
+      color:
+        var(--muted);
 
-      background: rgba(255,255,255,0.65);
+      background:
+        rgba(
+          255,
+          255,
+          255,
+          0.7
+        );
+
     }
+
 
 
     /* =========================================================
        CONTACT
     ========================================================= */
 
-    .contact {
+    .contact-section {
+
       background:
+
         linear-gradient(
           135deg,
           var(--primary-dark),
@@ -910,17 +1888,310 @@
         );
 
       color: white;
+
     }
 
-    .contact .section-label,
-    .contact .section-title,
-    .contact .section-description {
+
+    .contact-section .section-label,
+    .contact-section .section-title {
+
       color: white;
+
     }
 
-    .contact .section-description {
-      opacity: 0.88;
+
+    .contact-section .section-description {
+
+      color:
+        rgba(
+          255,
+          255,
+          255,
+          0.82
+        );
+
     }
+
+
+    .contact-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        0.9fr
+        1.1fr;
+
+      gap: 35px;
+
+      align-items: stretch;
+
+    }
+
+
+    .contact-card {
+
+      background:
+        rgba(
+          255,
+          255,
+          255,
+          0.10
+        );
+
+      border:
+        1px
+        solid
+        rgba(
+          255,
+          255,
+          255,
+          0.17
+        );
+
+      border-radius: 18px;
+
+      padding: 32px;
+
+      backdrop-filter: blur(8px);
+
+    }
+
+
+    .contact-card h3 {
+
+      font-size: 1.4rem;
+
+      margin-bottom: 12px;
+
+    }
+
+
+    .contact-card p {
+
+      color:
+        rgba(
+          255,
+          255,
+          255,
+          0.82
+        );
+
+      margin-bottom: 24px;
+
+    }
+
+
+    .email-box {
+
+      padding:
+        15px
+        17px;
+
+      background:
+        rgba(
+          255,
+          255,
+          255,
+          0.10
+        );
+
+      border-radius: 10px;
+
+      margin-bottom: 20px;
+
+    }
+
+
+    .email-label {
+
+      display: block;
+
+      color:
+        rgba(
+          255,
+          255,
+          255,
+          0.70
+        );
+
+      font-size: 0.73rem;
+
+      font-weight: 700;
+
+      text-transform: uppercase;
+
+      letter-spacing: 1px;
+
+      margin-bottom: 4px;
+
+    }
+
+
+    .email-address {
+
+      color: white;
+
+      font-weight: 700;
+
+    }
+
+
+    .contact-button {
+
+      display: inline-flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      gap: 8px;
+
+      text-decoration: none;
+
+      background: white;
+
+      color:
+        var(--primary-dark);
+
+      padding:
+        12px
+        18px;
+
+      border-radius: 8px;
+
+      font-weight: 800;
+
+      font-size: 0.9rem;
+
+      transition: 0.2s ease;
+
+    }
+
+
+    .contact-button:hover {
+
+      transform:
+        translateY(-2px);
+
+      box-shadow:
+        0
+        8px
+        25px
+        rgba(
+          0,
+          0,
+          0,
+          0.15
+        );
+
+    }
+
+
+    .map-card {
+
+      overflow: hidden;
+
+      background: white;
+
+      border-radius: 18px;
+
+      min-height: 390px;
+
+      box-shadow:
+        0
+        15px
+        40px
+        rgba(
+          0,
+          0,
+          0,
+          0.14
+        );
+
+    }
+
+
+    .map-card iframe {
+
+      display: block;
+
+      width: 100%;
+
+      height: 320px;
+
+      border: 0;
+
+    }
+
+
+    .map-footer {
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+      gap: 15px;
+
+      padding:
+        18px
+        20px;
+
+    }
+
+
+    .map-location {
+
+      color:
+        var(--text);
+
+    }
+
+
+    .map-location strong {
+
+      display: block;
+
+      color:
+        var(--primary-dark);
+
+    }
+
+
+    .map-location span {
+
+      color:
+        var(--muted);
+
+      font-size: 0.78rem;
+
+    }
+
+
+    .map-link {
+
+      text-decoration: none;
+
+      color: white;
+
+      background:
+        var(--primary);
+
+      padding:
+        9px
+        13px;
+
+      border-radius: 7px;
+
+      white-space: nowrap;
+
+      font-size: 0.78rem;
+
+      font-weight: 700;
+
+    }
+
 
 
     /* =========================================================
@@ -928,105 +2199,215 @@
     ========================================================= */
 
     footer {
-      background: #073b4b;
 
-      color: rgba(255, 255, 255, 0.8);
+      background:
+        var(--primary-deep);
+
+      color:
+        rgba(
+          255,
+          255,
+          255,
+          0.76
+        );
 
       text-align: center;
 
-      padding: 30px 20px;
+      padding:
+        30px
+        20px;
 
-      font-size: 0.85rem;
+      font-size: 0.82rem;
+
     }
+
 
 
     /* =========================================================
        RESPONSIVE
     ========================================================= */
 
-    @media (max-width: 900px) {
+    @media
+    (
+      max-width: 1000px
+    ) {
+
+      .equipment-grid {
+
+        grid-template-columns:
+          repeat(
+            2,
+            1fr
+          );
+
+      }
+
+    }
+
+
+    @media
+    (
+      max-width: 900px
+    ) {
 
       .hero-container {
-        grid-template-columns: 1fr;
+
+        grid-template-columns:
+          1fr;
 
         text-align: center;
+
       }
+
 
       .hero-description {
+
         margin-left: auto;
+
         margin-right: auto;
+
       }
+
 
       .hero-buttons {
+
         justify-content: center;
+
       }
 
-      .hero-logo {
+
+      .hero-visual {
+
         order: -1;
+
       }
+
 
       .hero-logo img {
+
         width: 250px;
+
       }
+
 
       .projects-grid,
       .about-grid,
-      .team-grid {
-        grid-template-columns: 1fr;
+      .team-grid,
+      .collaboration-grid,
+      .mission-vision,
+      .contact-grid {
+
+        grid-template-columns:
+          1fr;
+
       }
+
 
       nav {
+
         display: none;
+
       }
 
+
       .project-meta {
-        grid-template-columns: 1fr;
+
+        grid-template-columns:
+          1fr;
+
       }
 
     }
 
 
-    @media (max-width: 600px) {
+    @media
+    (
+      max-width: 600px
+    ) {
 
       section {
-        padding: 70px 20px;
+
+        padding:
+          70px
+          20px;
+
       }
 
+
       .team-header {
+
         flex-direction: column;
 
         align-items: flex-start;
+
       }
 
+
       .profile-photo {
+
         width: 110px;
+
         height: 110px;
 
         min-width: 110px;
+
       }
 
+
       .team-content {
+
         padding: 25px;
+
+      }
+
+
+      .equipment-grid {
+
+        grid-template-columns:
+          1fr;
+
+      }
+
+
+      .qr-card {
+
+        text-align: left;
+
+      }
+
+
+      .map-footer {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
       }
 
     }
 
+
   </style>
+
 </head>
+
 
 
 <body>
 
 
   <!-- =========================================================
-       HEADER
-  ========================================================== -->
+       NAVIGATION
+  ========================================================= -->
 
   <header>
 
     <div class="navbar">
 
-      <a class="brand" href="#home">
+      <a
+        class="brand"
+        href="#home"
+      >
 
         <img
           src="logo/logo.jpeg"
@@ -1042,15 +2423,33 @@
 
       <nav>
 
-        <a href="#about">About</a>
+        <a href="#about">
+          About
+        </a>
 
-        <a href="#projects">Projects</a>
+        <a href="#projects">
+          Projects
+        </a>
 
-        <a href="#team">Team</a>
+        <a href="#team">
+          Team
+        </a>
 
-        <a href="#publications">Publications</a>
+        <a href="#collaborations">
+          Collaborations
+        </a>
 
-        <a href="#contact">Contact</a>
+        <a href="#resources">
+          Resources
+        </a>
+
+        <a href="#publications">
+          Publications
+        </a>
+
+        <a href="#contact">
+          Contact
+        </a>
 
       </nav>
 
@@ -1063,16 +2462,22 @@
   <main>
 
 
+
     <!-- =========================================================
-         HERO
+         HOME
     ========================================================== -->
 
-    <section class="hero" id="home">
+    <section
+      class="hero"
+      id="home"
+    >
+
 
       <div class="hero-container">
 
 
         <div>
+
 
           <div class="hero-label">
             Research Laboratory
@@ -1080,8 +2485,11 @@
 
 
           <h1>
-            HydroGeoAI<br>
+
+            HydroGeoAI
+            <br>
             Lab
+
           </h1>
 
 
@@ -1102,6 +2510,7 @@
               Explore our projects
             </a>
 
+
             <a
               href="#team"
               class="btn btn-outline"
@@ -1111,20 +2520,56 @@
 
           </div>
 
+
         </div>
 
 
-        <div class="hero-logo">
 
-          <img
-            src="logo/logo.jpeg"
-            alt="HydroGeoAI Laboratory"
-          >
+        <div class="hero-visual">
+
+
+          <div class="hero-logo">
+
+            <img
+              src="logo/logo.jpeg"
+              alt="HydroGeoAI Laboratory"
+            >
+
+          </div>
+
+
+          <!-- QR CODE -->
+
+          <div class="qr-card">
+
+            <img
+              src="logo/link.png"
+              alt="QR Code HydroGeoAI Lab website"
+            >
+
+            <div class="qr-info">
+
+              <div class="qr-title">
+                Scan & explore
+              </div>
+
+              <div class="qr-text">
+
+                Scan this QR code to visit
+                and share the HydroGeoAI Lab website.
+
+              </div>
+
+            </div>
+
+          </div>
+
 
         </div>
 
 
       </div>
+
 
     </section>
 
@@ -1134,7 +2579,11 @@
          ABOUT
     ========================================================== -->
 
-    <section class="about" id="about">
+    <section
+      class="about"
+      id="about"
+    >
+
 
       <div class="container">
 
@@ -1162,6 +2611,7 @@
         </p>
 
 
+
         <div class="about-grid">
 
 
@@ -1178,12 +2628,13 @@
             <p>
 
               Hyperspectral imaging, optical remote sensing,
-              UAV observations, LiDAR and advanced environmental
-              sensing.
+              UAV observations, LiDAR, photogrammetry and
+              advanced environmental sensing.
 
             </p>
 
           </div>
+
 
 
           <div class="about-card">
@@ -1199,12 +2650,13 @@
             <p>
 
               Machine learning, deep learning and computer vision
-              for environmental monitoring, prediction and
-              geospatial analysis.
+              for environmental monitoring, prediction,
+              classification and geospatial analysis.
 
             </p>
 
           </div>
+
 
 
           <div class="about-card">
@@ -1220,8 +2672,8 @@
             <p>
 
               Research on rivers, lakes, reservoirs,
-              sediment dynamics, hydrology, water quality and
-              hydro-geomorphological processes.
+              sediment dynamics, hydrology, water quality
+              and hydro-geomorphological processes.
 
             </p>
 
@@ -1230,7 +2682,62 @@
 
         </div>
 
+
+
+        <!-- MISSION & VISION -->
+
+        <div class="mission-vision">
+
+
+          <div class="mv-card">
+
+            <h3>
+              Mission
+            </h3>
+
+            <p>
+
+              Our mission is to advance the understanding,
+              monitoring and sustainable management of aquatic
+              and fluvial systems through the integration of
+              remote sensing, geomatics, environmental sciences
+              and artificial intelligence. We develop innovative
+              methods that transform complex environmental data
+              into useful scientific knowledge and decision-making
+              tools.
+
+            </p>
+
+          </div>
+
+
+
+          <div class="mv-card">
+
+            <h3>
+              Vision
+            </h3>
+
+            <p>
+
+              Our vision is to become a multidisciplinary reference
+              laboratory in Latin America for advanced environmental
+              observation and artificial intelligence, connecting
+              field measurements, remote sensing, three-dimensional
+              information and predictive modeling to address
+              emerging challenges in water resources, rivers,
+              ecosystems and climate change.
+
+            </p>
+
+          </div>
+
+
+        </div>
+
+
       </div>
+
 
     </section>
 
@@ -1240,7 +2747,11 @@
          PROJECTS
     ========================================================== -->
 
-    <section class="projects" id="projects">
+    <section
+      class="projects"
+      id="projects"
+    >
+
 
       <div class="container">
 
@@ -1263,7 +2774,9 @@
         </p>
 
 
+
         <div class="projects-grid">
+
 
 
           <!-- PROJECT 1 -->
@@ -1328,15 +2841,24 @@
 
             <div class="project-links">
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Project
               </a>
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Publications
               </a>
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Results
               </a>
 
@@ -1408,15 +2930,24 @@
 
             <div class="project-links">
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Project
               </a>
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Publications
               </a>
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Results
               </a>
 
@@ -1488,15 +3019,24 @@
 
             <div class="project-links">
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Project
               </a>
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Publications
               </a>
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Results
               </a>
 
@@ -1567,15 +3107,24 @@
 
             <div class="project-links">
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Project
               </a>
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Publications
               </a>
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Results
               </a>
 
@@ -1648,15 +3197,24 @@
 
             <div class="project-links">
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Project
               </a>
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Publications
               </a>
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Results
               </a>
 
@@ -1728,15 +3286,24 @@
 
             <div class="project-links">
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Project
               </a>
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Publications
               </a>
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Results
               </a>
 
@@ -1808,15 +3375,24 @@
 
             <div class="project-links">
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Project
               </a>
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Publications
               </a>
 
-              <a class="project-button placeholder" href="#">
+              <a
+                class="project-button placeholder"
+                href="#"
+              >
                 Results
               </a>
 
@@ -1827,7 +3403,9 @@
 
         </div>
 
+
       </div>
+
 
     </section>
 
@@ -1837,7 +3415,11 @@
          TEAM
     ========================================================== -->
 
-    <section class="team-section" id="team">
+    <section
+      class="team-section"
+      id="team"
+    >
+
 
       <div class="container">
 
@@ -1855,8 +3437,8 @@
         <p class="section-description">
 
           Researchers working at the intersection of remote sensing,
-          artificial intelligence, hydrology, geomorphology and
-          environmental sciences.
+          artificial intelligence, hydrology, geomorphology
+          and environmental sciences.
 
         </p>
 
@@ -1865,9 +3447,8 @@
         <div class="team-grid">
 
 
-          <!-- ===================================================
-               SANTIAGO YEPEZ
-          ==================================================== -->
+
+          <!-- SANTIAGO YEPEZ -->
 
           <article class="team-card">
 
@@ -1876,14 +3457,6 @@
 
               <div class="team-header">
 
-
-                <!--
-                  FUTURE PHOTO:
-
-                  equipo/
-                  └── SY/
-                      └── sy.jpeg
-                -->
 
                 <div class="profile-photo">
 
@@ -1911,11 +3484,15 @@
                   </h3>
 
                   <div class="team-role">
+
                     Principal Investigator · HydroGeoAI Lab
+
                   </div>
 
                   <div class="team-affiliation">
+
                     University of Concepción · Chile
+
                   </div>
 
                 </div>
@@ -1924,16 +3501,18 @@
               </div>
 
 
+
               <p class="team-bio">
 
                 Researcher specializing in fluvial geomorphology,
                 hydrology and advanced remote sensing. His research
                 integrates multiscale and hyperspectral observations
                 to study river and catchment dynamics, sediment
-                transport, water quality, vegetation and environmental
-                processes.
+                transport, water quality, vegetation and
+                environmental processes.
 
               </p>
+
 
 
               <div class="research-interests">
@@ -1963,6 +3542,7 @@
                 </span>
 
               </div>
+
 
 
               <div class="profile-links">
@@ -2010,15 +3590,14 @@
 
               </div>
 
+
             </div>
 
           </article>
 
 
 
-          <!-- ===================================================
-               BASTIAN RIVAS
-          ==================================================== -->
+          <!-- BASTIAN RIVAS -->
 
           <article class="team-card">
 
@@ -2027,14 +3606,6 @@
 
               <div class="team-header">
 
-
-                <!--
-                  FUTURE PHOTO:
-
-                  equipo/
-                  └── BR/
-                      └── br.jpeg
-                -->
 
                 <div class="profile-photo">
 
@@ -2075,6 +3646,7 @@
               </div>
 
 
+
               <p class="team-bio">
 
                 Forest engineer focused on integrating computational
@@ -2082,10 +3654,11 @@
                 to study forest and environmental systems. His work
                 explores hydrological modeling, hyperspectral imagery,
                 LiDAR, point clouds, 3D reconstruction and machine
-                learning for environmental analysis and digital plant
-                phenotyping.
+                learning for environmental analysis and digital
+                plant phenotyping.
 
               </p>
+
 
 
               <div class="research-interests">
@@ -2119,6 +3692,7 @@
                 </span>
 
               </div>
+
 
 
               <div class="profile-links">
@@ -2166,6 +3740,7 @@
 
               </div>
 
+
             </div>
 
           </article>
@@ -2173,7 +3748,338 @@
 
         </div>
 
+
       </div>
+
+
+    </section>
+
+
+
+    <!-- =========================================================
+         COLLABORATIONS
+    ========================================================== -->
+
+    <section
+      class="collaborations-section"
+      id="collaborations"
+    >
+
+
+      <div class="container">
+
+
+        <div class="section-label">
+          Research Network
+        </div>
+
+
+        <h2 class="section-title">
+          Collaborations
+        </h2>
+
+
+        <p class="section-description">
+
+          HydroGeoAI Lab promotes collaborative research connecting
+          researchers, institutions and laboratories in Chile
+          and abroad.
+
+        </p>
+
+
+
+        <div class="collaboration-grid">
+
+
+
+          <!-- NATIONAL -->
+
+          <article class="collaboration-card">
+
+
+            <div class="collaboration-icon">
+              🇨🇱
+            </div>
+
+
+            <h3>
+              National Collaborations
+            </h3>
+
+
+            <p>
+
+              Collaboration with Chilean universities,
+              research centers, public institutions and
+              scientific groups related to hydrology,
+              remote sensing, artificial intelligence and
+              environmental sciences.
+
+            </p>
+
+
+            <div class="future-entry">
+
+              Collaborating researchers and institutions
+              will be added here.
+
+            </div>
+
+
+          </article>
+
+
+
+          <!-- INTERNATIONAL -->
+
+          <article class="collaboration-card">
+
+
+            <div class="collaboration-icon">
+              🌎
+            </div>
+
+
+            <h3>
+              International Collaborations
+            </h3>
+
+
+            <p>
+
+              International scientific cooperation focused on
+              interdisciplinary research, knowledge exchange,
+              joint publications, field campaigns and the
+              development of advanced environmental technologies.
+
+            </p>
+
+
+            <div class="future-entry">
+
+              International researchers, universities and
+              research institutions will be added here.
+
+            </div>
+
+
+          </article>
+
+
+        </div>
+
+
+      </div>
+
+
+    </section>
+
+
+
+    <!-- =========================================================
+         RESOURCES & EQUIPMENT
+    ========================================================== -->
+
+    <section
+      class="resources-section"
+      id="resources"
+    >
+
+
+      <div class="container">
+
+
+        <div class="section-label">
+          Research Infrastructure
+        </div>
+
+
+        <h2 class="section-title">
+          Resources & Equipment
+        </h2>
+
+
+        <p class="section-description">
+
+          Scientific instruments, remote sensing platforms,
+          computational resources and field equipment supporting
+          HydroGeoAI Lab research activities.
+
+        </p>
+
+
+
+        <div class="equipment-grid">
+
+
+
+          <!-- DRONE -->
+
+          <article class="equipment-card">
+
+
+            <div class="equipment-image">
+
+              <div class="equipment-placeholder">
+                🚁
+              </div>
+
+              <img
+                src="equipment/drone/drone.jpeg"
+                alt="UAV and drone systems"
+                onerror="this.style.display='none'"
+              >
+
+            </div>
+
+
+            <div class="equipment-info">
+
+              <h3>
+                UAV & Drone Systems
+              </h3>
+
+              <p>
+
+                Platforms for high-resolution aerial surveys,
+                photogrammetry and environmental remote sensing.
+
+              </p>
+
+            </div>
+
+
+          </article>
+
+
+
+          <!-- GPS -->
+
+          <article class="equipment-card">
+
+
+            <div class="equipment-image">
+
+              <div class="equipment-placeholder">
+                📡
+              </div>
+
+              <img
+                src="equipment/gps/gps.jpeg"
+                alt="GNSS and GPS systems"
+                onerror="this.style.display='none'"
+              >
+
+            </div>
+
+
+            <div class="equipment-info">
+
+              <h3>
+                GNSS & GPS
+              </h3>
+
+              <p>
+
+                Positioning and georeferencing instruments
+                supporting field surveys and spatial measurements.
+
+              </p>
+
+            </div>
+
+
+          </article>
+
+
+
+          <!-- HYPERSPECTRAL -->
+
+          <article class="equipment-card">
+
+
+            <div class="equipment-image">
+
+              <div class="equipment-placeholder">
+                🌈
+              </div>
+
+              <img
+                src="equipment/hyperspectral/hyperspectral.jpeg"
+                alt="Hyperspectral imaging equipment"
+                onerror="this.style.display='none'"
+              >
+
+            </div>
+
+
+            <div class="equipment-info">
+
+              <h3>
+                Hyperspectral Imaging
+              </h3>
+
+              <p>
+
+                Imaging systems for high-dimensional spectral
+                characterization of water, vegetation and
+                environmental targets.
+
+              </p>
+
+            </div>
+
+
+          </article>
+
+
+
+          <!-- 3D -->
+
+          <article class="equipment-card">
+
+
+            <div class="equipment-image">
+
+              <div class="equipment-placeholder">
+                ◈
+              </div>
+
+              <img
+                src="equipment/3d/3d.jpeg"
+                alt="3D imaging and sensing systems"
+                onerror="this.style.display='none'"
+              >
+
+            </div>
+
+
+            <div class="equipment-info">
+
+              <h3>
+                3D Imaging & Sensors
+              </h3>
+
+              <p>
+
+                Resources for photogrammetry, point clouds,
+                three-dimensional reconstruction and
+                morphodynamic analysis.
+
+              </p>
+
+            </div>
+
+
+          </article>
+
+
+        </div>
+
+
+      </div>
+
 
     </section>
 
@@ -2184,15 +4090,16 @@
     ========================================================== -->
 
     <section
-      id="publications"
       class="publications-section"
+      id="publications"
     >
+
 
       <div class="container">
 
 
         <div class="section-label">
-          Scientific output
+          Scientific Output
         </div>
 
 
@@ -2203,8 +4110,8 @@
 
         <p class="section-description">
 
-          Scientific publications associated with HydroGeoAI Lab
-          research projects.
+          Scientific publications associated with
+          HydroGeoAI Lab research projects.
 
         </p>
 
@@ -2212,13 +4119,15 @@
         <div class="coming-soon">
 
           Publications will be incorporated progressively,
-          including direct links to articles, DOI records
-          and their associated HydroGeoAI research projects.
+          including authors, publication year, journal,
+          DOI, direct access and their associated
+          HydroGeoAI research projects.
 
         </div>
 
 
       </div>
+
 
     </section>
 
@@ -2228,32 +4137,153 @@
          CONTACT
     ========================================================== -->
 
-    <section class="contact" id="contact">
+    <section
+      class="contact-section"
+      id="contact"
+    >
+
 
       <div class="container">
 
 
         <div class="section-label">
-          HydroGeoAI Lab
+          Get in touch
         </div>
 
 
         <h2 class="section-title">
-          Contact & Collaboration
+          Contact
         </h2>
 
 
         <p class="section-description">
 
-          We welcome research collaborations related to remote sensing,
-          artificial intelligence, hydrology, aquatic environments,
-          fluvial systems, hyperspectral imaging and environmental
-          monitoring.
+          Interested in collaborating with HydroGeoAI Lab,
+          discussing a research idea, accessing our scientific
+          expertise or learning more about our projects?
+          Contact us.
 
         </p>
 
 
+
+        <div class="contact-grid">
+
+
+
+          <!-- CONTACT INFO -->
+
+          <div class="contact-card">
+
+
+            <h3>
+              Contact HydroGeoAI Lab
+            </h3>
+
+
+            <p>
+
+              We welcome scientific collaborations,
+              student inquiries and interdisciplinary
+              research opportunities related to remote sensing,
+              artificial intelligence, hydrology and
+              aquatic environments.
+
+            </p>
+
+
+            <div class="email-box">
+
+              <span class="email-label">
+                Lab Email
+              </span>
+
+              <span class="email-address">
+                syepez@udec.cl
+              </span>
+
+            </div>
+
+
+
+            <a
+              class="contact-button"
+              href="mailto:syepez@udec.cl?subject=HydroGeoAI%20Lab%20-%20Contact&body=Hello%20HydroGeoAI%20Lab%2C%0A%0AI%20would%20like%20to%20contact%20you%20regarding%3A%0A%0A"
+            >
+
+              ✉ Send us a message
+
+            </a>
+
+
+          </div>
+
+
+
+          <!-- MAP -->
+
+          <div class="map-card">
+
+
+            <iframe
+
+              src="https://www.google.com/maps?q=-36.834495,-73.032547&z=16&output=embed"
+
+              loading="lazy"
+
+              referrerpolicy="no-referrer-when-downgrade"
+
+              title="HydroGeoAI Lab location"
+
+            ></iframe>
+
+
+
+            <div class="map-footer">
+
+
+              <div class="map-location">
+
+                <strong>
+                  HydroGeoAI Lab
+                </strong>
+
+                <span>
+                  Concepción, Chile
+                </span>
+
+              </div>
+
+
+
+              <a
+
+                class="map-link"
+
+                href="https://maps.app.goo.gl/EthMW9VcD7aecfzE7"
+
+                target="_blank"
+
+                rel="noopener noreferrer"
+
+              >
+
+                Open in Maps ↗
+
+              </a>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
       </div>
+
 
     </section>
 
@@ -2270,8 +4300,8 @@
 
     <p>
 
-      © 2026 HydroGeoAI Lab · Advanced Remote Sensing and
-      Artificial Intelligence for Aquatic & Fluvial Systems
+      © 2026 HydroGeoAI Lab · Advanced Remote Sensing
+      and Artificial Intelligence for Aquatic & Fluvial Systems
 
     </p>
 
@@ -2279,5 +4309,5 @@
 
 
 </body>
+
 </html>
-```
