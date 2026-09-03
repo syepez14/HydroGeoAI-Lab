@@ -1,0 +1,5 @@
+Organization: Universidad de Concepción
+Country: Chile
+Summary: Geomorfología fluvial, transporte de sedimentos.
+Website:https://faug.udec.cl/?staff_id=156
+LinkedIn:
