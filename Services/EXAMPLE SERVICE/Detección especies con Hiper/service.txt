@@ -1,0 +1,3 @@
+Icon: 
+Summary: Detección de especies.
+Website:
