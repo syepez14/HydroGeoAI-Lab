@@ -1,9 +1,0 @@
-Type: FONDECYT
-Scope: National
-Status: Closed
-Period: 2022 – 2025
-Role: Principal Investigator
-Summary: Seasonal and interannual variability of inherent and apparent optical properties in lakes and reservoirs in south-central Chile: implications for bio-optical modeling and water quality.
-Link:
-Publications:
-Results:
