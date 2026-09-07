@@ -81,8 +81,8 @@
     "period": "2019 – 2022",
     "role": "General Director",
     "summary": "Modelo para predecir el comportamiento de la morfología fluvial del cauce dada la ocurrencia de eventos climáticos extremos.",
-    "link": "",
-    "publications": "",
+    "link": "https://vosores.github.io/SouthRiversToolbox/web/plugins.xml",
+    "publications": "https://doi.org/10.5194/piahs-385-189-2024",
     "results": "",
     "name": "South Rivers Toolbox"
   }
