@@ -1,0 +1,3 @@
+Icon: remote
+Summary: Identification and classification of species and environmental targets using RGB, multispectral and hyperspectral imagery.
+Website:

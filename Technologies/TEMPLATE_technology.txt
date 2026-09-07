@@ -1,0 +1,11 @@
+Type: Software / Model / Tool
+
+Version:
+
+Summary: Short description of the technology developed by HydroGeoAI Lab.
+
+Link:
+
+Repository:
+
+Documentation:

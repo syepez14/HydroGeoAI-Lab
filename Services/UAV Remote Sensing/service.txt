@@ -1,0 +1,3 @@
+Icon: remote
+Summary: Drone-based data acquisition for environmental, forestry, aquatic and fluvial applications.
+Website:

@@ -1,0 +1,3 @@
+Icon: remote
+Summary: Short service description.
+Website:
