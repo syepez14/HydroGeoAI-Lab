@@ -1,0 +1,3 @@
+Icon: remote
+Summary: Hyperspectral acquisition and analysis for vegetation, water quality, stress detection and environmental characterization.
+Website:

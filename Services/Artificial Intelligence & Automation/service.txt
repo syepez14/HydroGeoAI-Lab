@@ -1,0 +1,3 @@
+Icon: ai
+Summary: Machine learning, deep learning and computer vision workflows for automated environmental and geospatial data analysis.
+Website:

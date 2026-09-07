@@ -1,0 +1,3 @@
+Type: Manual
+Summary: Short description of the teaching or technical resource.
+Link:
