@@ -1,3 +1,0 @@
-Icon: ai
-Summary: Automated detection, counting and spatial characterization of individuals using computer vision and machine learning.
-Website:

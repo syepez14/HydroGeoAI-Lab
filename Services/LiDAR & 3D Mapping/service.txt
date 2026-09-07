@@ -1,3 +1,0 @@
-Icon: remote
-Summary: Point cloud processing, terrain reconstruction, vegetation structure analysis and three-dimensional environmental modeling.
-Website:
