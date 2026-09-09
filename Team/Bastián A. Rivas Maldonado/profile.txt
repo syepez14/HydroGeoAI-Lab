@@ -1,6 +1,6 @@
 Position: Thesis student · Master's student in Forestry
 Studies: Forest Engineer · 
-Organization: University of Concepción · Chile
+Organization: Universidad de Concepción · Chile
 
 Summary: Forest engineer focused on integrating computational methods, remote sensing and artificial intelligence to study forest and environmental systems. His work explores hydrological modeling, hyperspectral imagery, LiDAR, point clouds, 3D reconstruction and machine learning for environmental analysis and digital plant phenotyping.
 
