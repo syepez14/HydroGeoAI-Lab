@@ -18,5 +18,15 @@
     "media": "News/Master´s IWS Webinar/image.png",
     "media_type": "image",
     "photo": "News/Master´s IWS Webinar/image.png"
+  },
+  {
+    "date": "2026-07-31",
+    "type": "News",
+    "summary": "Instead of trying to contain flooding with rigid structures, the challenge is to design solutions that adapt to the natural functioning of each watershed.",
+    "link": "https://noticias.udec.cl/gestion-inteligente-de-cuencas-en-la-era-de-los-eventos-extremos/",
+    "name": "Smart Watershed Management in the Age of Extreme Weather Events",
+    "media": "News/Smart Watershed Management in the Age of Extreme Weather Events/image.png",
+    "media_type": "image",
+    "photo": "News/Smart Watershed Management in the Age of Extreme Weather Events/image.png"
   }
 ]
