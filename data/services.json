@@ -7,14 +7,5 @@
     "media": "Services/Flow estimation service using surface velocimetry based on the analysis of video sequences or aerial images/image.mp4",
     "media_type": "video",
     "photo": "Services/Flow estimation service using surface velocimetry based on the analysis of video sequences or aerial images/image.mp4"
-  },
-  {
-    "icon": "remote",
-    "summary": "Identification and classification of species and environmental targets using RGB, multispectral and hyperspectral imagery.",
-    "website": "",
-    "name": "Species Detection & Classification",
-    "media": "Services/Species Detection & Classification/image.png",
-    "media_type": "image",
-    "photo": "Services/Species Detection & Classification/image.png"
   }
 ]
