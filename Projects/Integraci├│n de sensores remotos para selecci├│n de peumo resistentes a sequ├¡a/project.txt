@@ -1,9 +1,0 @@
-Type: VRID
-Scope: University Internal
-Status: Completed
-Period: 2022 – 2024
-Role: Co-Investigator
-Summary: (2022000609) Integración de sensores remotos, herramientas fisiológicas y genómicas para la selección de individuos de peumo resistentes a sequía.
-Link:
-Publications:
-Results:
