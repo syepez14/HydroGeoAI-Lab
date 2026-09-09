@@ -1,44 +1,5 @@
 [
   {
-    "type": "FONDECYT",
-    "scope": "National",
-    "status": "Ongoing",
-    "period": "2026 – 2029",
-    "role": "Principal Investigator",
-    "summary": "(126205) Assessing human-induced changes in sediment transport dynamics in the Biobío River through hyperspectral and morphodynamic approaches.",
-    "link": "",
-    "publications": "",
-    "results": "",
-    "name": "Assessing Human-Induced Changes in Sediment Transport Dynamics in the Biob├¡o River Through Hyperspectral and Morphodynamic Approaches"
-  },
-  {
-    "type": "FONDECYT",
-    "scope": "National",
-    "status": "Ongoing",
-    "period": "2025 – 2029",
-    "role": "Co-Investigator",
-    "summary": "(1251201) Close-range 3D-hyperspectral imaging and machine learning tools for high throughput plant phenotyping in abiotic stress studies of Eucalyptus spp.",
-    "link": "",
-    "publications": "",
-    "results": "",
-    "name": "Close-range 3D-hyperspectral imaging and machine learning tools for high throughput plant phenotyping in abiotic stress studies of Eucalyptus spp",
-    "media": "Projects/Close-range 3D-hyperspectral imaging and machine learning tools for high throughput plant phenotyping in abiotic stress studies of Eucalyptus spp/image.gif",
-    "media_type": "image",
-    "photo": "Projects/Close-range 3D-hyperspectral imaging and machine learning tools for high throughput plant phenotyping in abiotic stress studies of Eucalyptus spp/image.gif"
-  },
-  {
-    "type": "VRID",
-    "scope": "University Internal",
-    "status": "Ongoing",
-    "period": "2025 – 2027",
-    "role": "Co-Investigator",
-    "summary": "(2024001259INT) Dinámicas fluviales y transformaciones socio-territoriales en la cuenca del río Penco. Geomorfología fluvial, experiencias del río y soluciones basadas en la naturaleza.",
-    "link": "",
-    "publications": "",
-    "results": "",
-    "name": "Din├ímicas fluviales y transformaciones socio-territoriales en la cuenca del r├¡o Penco"
-  },
-  {
     "type": "VRID",
     "scope": "University Internal",
     "status": "Completed",
