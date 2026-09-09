@@ -7,11 +7,5 @@
     "media": "Services/Species Detection & Classification/image.png",
     "media_type": "image",
     "photo": "Services/Species Detection & Classification/image.png"
-  },
-  {
-    "icon": "remote",
-    "summary": "Drone-based data acquisition for environmental, forestry, aquatic and fluvial applications.",
-    "website": "",
-    "name": "UAV Remote Sensing"
   }
 ]
