@@ -1,9 +1,0 @@
-Type: FONDECYT
-Scope: National
-Status: Ongoing
-Period: 2025 – 2029
-Role: Co-Investigator
-Summary: (1251201) Close-range 3D-hyperspectral imaging and machine learning tools for high throughput plant phenotyping in abiotic stress studies of Eucalyptus spp.
-Link:
-Publications:
-Results:
