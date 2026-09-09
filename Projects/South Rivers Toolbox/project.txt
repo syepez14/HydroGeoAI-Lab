@@ -1,9 +1,0 @@
-Type: CORFO
-Scope: National
-Status: Closed
-Period: 2019 – 2022
-Role: General Director
-Summary: Modelo para predecir el comportamiento de la morfología fluvial del cauce dada la ocurrencia de eventos climáticos extremos.
-Link: https://vosores.github.io/SouthRiversToolbox/web/plugins.xml
-Publications: https://doi.org/10.5194/piahs-385-189-2024
-Results:
