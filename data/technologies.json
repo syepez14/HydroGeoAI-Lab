@@ -1,8 +1,8 @@
 [
   {
     "type": "Software",
-    "version": "",
-    "summary": "This toolbox allows users to characterize and classify River Styles based on hydromorphological metrics extracted at segment scale, implementing a semi-automatic approach that no longer relies on subjective expert judgment. As a result of the analysis, 43 Rivers Styles have been classified and characterized using the SRT..",
+    "version": "1.0.2",
+    "summary": "This toolbox allows users to characterize and classify River Styles based on hydromorphological metrics extracted at segment scale, implementing a semi-automatic approach that no longer relies on subjective expert judgment. As a result of the analysis, 43 Rivers Styles have been classified and characterized using the SRT.",
     "link": "https://vosores.github.io/SouthRiversToolbox/web/plugins.xml",
     "repository": "https://github.com/vosores/southriverstoolbox",
     "documentation": "",
