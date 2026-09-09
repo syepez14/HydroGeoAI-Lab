@@ -1,21 +1,9 @@
 [
   {
-    "icon": "ai",
-    "summary": "Machine learning, deep learning and computer vision workflows for automated environmental and geospatial data analysis.",
-    "website": "",
-    "name": "Artificial Intelligence & Automation"
-  },
-  {
     "icon": "remote",
     "summary": "Hyperspectral acquisition and analysis for vegetation, water quality, stress detection and environmental characterization.",
     "website": "",
     "name": "Hyperspectral Imaging"
-  },
-  {
-    "icon": "ai",
-    "summary": "Automated detection, counting and spatial characterization of individuals using computer vision and machine learning.",
-    "website": "",
-    "name": "Individual Detection & Quantification"
   },
   {
     "icon": "remote",
