@@ -3,7 +3,7 @@ Scope: National
 Status: Closed
 Period: 2024 – 2025
 Role: Co-Investigator
-Summary: Redes GeoEspaciales: Explorando el uso de la Geomática y la Teledetección aplicada a la adaptación climática.
+Summary: .
 Link:
 Publications:
 Results:
