@@ -18,5 +18,15 @@
     "media": "News/Master´s IWS Webinar/image.png",
     "media_type": "image",
     "photo": "News/Master´s IWS Webinar/image.png"
+  },
+  {
+    "date": "2026-07-31",
+    "type": "Nota de prensa",
+    "summary": "Gestión inteligente de cuencas en la era de los eventos extremos\n\nMás que intentar contener las crecidas mediante obras rígidas, el desafío consiste en diseñar soluciones adaptadas al funcionamiento natural de cada cuenca.",
+    "link": "https://noticias.udec.cl/gestion-inteligente-de-cuencas-en-la-era-de-los-eventos-extremos/",
+    "name": "Nota de prensa 1",
+    "media": "News/Nota de prensa 1/image.png",
+    "media_type": "image",
+    "photo": "News/Nota de prensa 1/image.png"
   }
 ]
