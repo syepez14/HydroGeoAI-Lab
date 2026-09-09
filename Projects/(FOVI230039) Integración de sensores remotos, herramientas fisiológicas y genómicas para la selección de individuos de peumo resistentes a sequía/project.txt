@@ -3,7 +3,7 @@ Scope: University Internal
 Status: Completed
 Period: 2022 – 2024
 Role: Co-Investigator
-Summary: Integración de sensores remotos, herramientas fisiológicas y genómicas para la selección de individuos de peumo resistentes a sequía.
+Summary: .
 Link:
 Publications:
 Results:
