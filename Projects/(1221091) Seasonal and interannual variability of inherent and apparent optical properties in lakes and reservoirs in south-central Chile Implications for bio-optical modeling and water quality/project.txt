@@ -1,0 +1,9 @@
+Type: FONDECYT
+Scope: National
+Status: Closed
+Period: 2022 – 2025
+Role: Principal Investigator
+Summary: Water quality monitoring in Chile has historically been a challenge due to the low density of measurement stations, with only 829 stations covering more than 12,000 lakes and 1,200 rivers. Traditional methods, based on sporadic in situ sampling, did not allow for continuous monitoring or early detection of problems such as eutrophication or pollution. To address this limitation, we developed an advanced monitoring system using remote sensing technology. Through satellite images, hyperspectral spectroscopy and bio-optical models, we were able to assess and monitor water quality in four strategic lakes in south-central Chile: Laguna Grande de San Pedro de la Paz, Lago Lanalhue, Lago Villarrica and Lago Llanquihue..
+Link: https://fondecyt1221091.github.io/Water-Quality-Monitoring-Platform/
+Publications: https://www.mdpi.com/2073-4441/18/10/1230
+Results: https://www.mdpi.com/2072-4292/16/2/427

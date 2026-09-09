@@ -1,0 +1,9 @@
+Type: FONDECYT
+Scope: National
+Status: Ongoing
+Period: 2026 – 2029
+Role: Principal Investigator
+Summary: Assessing human-induced changes in sediment transport dynamics in the Biobío River through hyperspectral and morphodynamic approaches.
+Link:
+Publications:
+Results:
