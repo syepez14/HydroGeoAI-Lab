@@ -1,18 +1,6 @@
 [
   {
     "icon": "remote",
-    "summary": "Hyperspectral acquisition and analysis for vegetation, water quality, stress detection and environmental characterization.",
-    "website": "",
-    "name": "Hyperspectral Imaging"
-  },
-  {
-    "icon": "remote",
-    "summary": "Point cloud processing, terrain reconstruction, vegetation structure analysis and three-dimensional environmental modeling.",
-    "website": "",
-    "name": "LiDAR & 3D Mapping"
-  },
-  {
-    "icon": "remote",
     "summary": "Identification and classification of species and environmental targets using RGB, multispectral and hyperspectral imagery.",
     "website": "",
     "name": "Species Detection & Classification",
