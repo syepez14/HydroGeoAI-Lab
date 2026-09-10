@@ -1,9 +1,0 @@
-Type: CORFO
-Scope: National
-Status: Closed
-Period: 2019 – 2022
-Role: General Director
-Summary: Automatic characterization of river morphology provides valuable information for understanding river dynamics and supporting management and restoration. This study aimed to semi-automatically characterize the River Styles of the Duqueco River in south-central Chile using the South Rivers Toolbox (SRT), a QGIS tool developed to extract hydromorphological metrics and classify river segments. A total of 43 River Styles were identified, showing distinct characteristics along the upper, middle, and lower reaches. The results demonstrate that SRT can support the retrospective analysis of river evolution and identify sections sensitive to geomorphological changes, providing useful information for assessing flood risk and river management.
-Link: https://vosores.github.io/SouthRiversToolbox/web/plugins.xml
-Publications: https://doi.org/10.5194/piahs-385-189-2024
-Results:
