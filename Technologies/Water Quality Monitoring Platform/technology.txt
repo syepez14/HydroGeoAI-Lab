@@ -1,9 +1,0 @@
-Type: Software
-Version: 1.0.0
-
-Summary: We developed an advanced monitoring system using remote sensing technology. Through satellite images, hyperspectral spectroscopy and bio-optical models, we were able to assess and monitor water quality in four strategic lakes in south-central Chile: Laguna Grande de San Pedro de la Paz, Lago Lanalhue, Lago Villarrica and Lago Llanquihue.
-
-Link:https://ee-fondecyt1221091-2025.projects.earthengine.app/view/app1221091
-
-Repository:
-Documentation: https://fondecyt1221091.github.io/Water-Quality-Monitoring-Platform/
