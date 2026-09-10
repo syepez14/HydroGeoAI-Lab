@@ -1,4 +1,0 @@
-Version:
-Summary: Software, model or digital tool developed by the Lab.
-Link:
-Repository:

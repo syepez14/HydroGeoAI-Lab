@@ -1,3 +1,0 @@
-Model: Equipment model
-Summary: Short equipment description.
-Website:
