@@ -1,5 +1,0 @@
-Model: Equipment model
-
-Summary: Short description of the equipment and its main scientific use.
-
-Link:
