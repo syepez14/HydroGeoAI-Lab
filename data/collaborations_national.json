@@ -8,6 +8,14 @@
     "name": "María A. Elgueta Astaburuaga"
   },
   {
+    "organization": "Universidad de Concepción",
+    "country": "Chile",
+    "summary": "Geomorfología fluvial, transporte de sedimentos.",
+    "website": "https://postgrado.udec.cl/index.php/catalogo/academico/maria-alejandra-elgueta-astaburuaga",
+    "linkedin": "",
+    "name": "María A. Elgueta Astaburuaga"
+  },
+  {
     "organization": "Universidad Católica del Maule",
     "country": "Chile",
     "summary": "Mathematical Civil Engineer and Ph.D. in Applied Sciences with a specialization in Mathematical Engineering.",
@@ -22,6 +30,23 @@
       }
     ],
     "photo": "Collaborations/National/V#U00edctor A. Osores Escalona/image.jpeg",
+    "media_type": "image"
+  },
+  {
+    "organization": "Universidad Católica del Maule",
+    "country": "Chile",
+    "summary": "Mathematical Civil Engineer and Ph.D. in Applied Sciences with a specialization in Mathematical Engineering.",
+    "website": "https://dmfe.pythonanywhere.com/academico/dr-victor-osores-escalona/gm3/",
+    "linkedin": "https://www.linkedin.com/in/victorosores/",
+    "name": "Víctor A. Osores Escalona",
+    "media": [
+      {
+        "src": "Collaborations/National/Víctor A. Osores Escalona/image.jpeg",
+        "type": "image",
+        "name": "image.jpeg"
+      }
+    ],
+    "photo": "Collaborations/National/Víctor A. Osores Escalona/image.jpeg",
     "media_type": "image"
   }
 ]
