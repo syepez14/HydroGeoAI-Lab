@@ -1,0 +1,9 @@
+Type: Dataset
+
+Year: 2025
+
+Summary: This study evaluated the Snowmelt-Runoff Model (SRM) and the Génie Rural à X Paramètres Journalier (GRxJ) model family, analyzing the latter both independently and in combination with the CemaNeige snow module. SRM and GRxJ represent snowmelt-runoff and rainfall-runoff hydrological models, respectively.
+
+Link: https://www.mdpi.com/2073-4441/17/23/3413
+
+Download: https://doi.org/10.5281/zenodo.17246190

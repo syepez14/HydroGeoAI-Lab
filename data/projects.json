@@ -1,0 +1,113 @@
+[
+  {
+    "type": "FONDECYT",
+    "scope": "National",
+    "status": "Closed",
+    "period": "2022 – 2025",
+    "role": "Principal Investigator",
+    "summary": "Water quality monitoring in Chile has historically been a challenge due to the low density of measurement stations, with only 829 stations covering more than 12,000 lakes and 1,200 rivers. Traditional methods, based on sporadic in situ sampling, did not allow for continuous monitoring or early detection of problems such as eutrophication or pollution. To address this limitation, we developed an advanced monitoring system using remote sensing technology. Through satellite images, hyperspectral spectroscopy and bio-optical models, we were able to assess and monitor water quality in four strategic lakes in south-central Chile: Laguna Grande de San Pedro de la Paz, Lago Lanalhue, Lago Villarrica and Lago Llanquihue.",
+    "link": "https://fondecyt1221091.github.io/Water-Quality-Monitoring-Platform/",
+    "publications": "https://www.mdpi.com/2073-4441/18/10/1230",
+    "results": "https://www.mdpi.com/2072-4292/16/2/427",
+    "name": "(1221091) Seasonal and interannual variability of inherent and apparent optical properties in lakes and reservoirs in south-central Chile Implications for bio-optical modeling and water quality",
+    "media": [
+      {
+        "src": "Projects/(1221091) Seasonal and interannual variability of inherent and apparent optical properties in lakes and reservoirs in south-central Chile Implications for bio-optical modeling and water quality/image.png",
+        "type": "image",
+        "name": "image.png"
+      }
+    ],
+    "photo": "Projects/(1221091) Seasonal and interannual variability of inherent and apparent optical properties in lakes and reservoirs in south-central Chile Implications for bio-optical modeling and water quality/image.png",
+    "media_type": "image"
+  },
+  {
+    "type": "FONDECYT",
+    "scope": "National",
+    "status": "Ongoing",
+    "period": "2025 – 2029",
+    "role": "Co-Investigator",
+    "summary": "The project aims to develop a high-throughput phenotyping system for Eucalyptus spp. by integrating 3D and hyperspectral data, supplemented by artificial intelligence tools. The goal is to identify, based on the plants’ spectral signatures and structural characteristics, areas affected by abiotic stress and to generate indicators that enable early and accurate detection of stress.",
+    "link": "",
+    "publications": "",
+    "results": "",
+    "name": "(1251201) Close-range 3D-hyperspectral imaging and machine learning tools for high throughput plant phenotyping in abiotic stress studies of Eucalyptus spp",
+    "media": [
+      {
+        "src": "Projects/(1251201) Close-range 3D-hyperspectral imaging and machine learning tools for high throughput plant phenotyping in abiotic stress studies of Eucalyptus spp/image.gif",
+        "type": "image",
+        "name": "image.gif"
+      }
+    ],
+    "photo": "Projects/(1251201) Close-range 3D-hyperspectral imaging and machine learning tools for high throughput plant phenotyping in abiotic stress studies of Eucalyptus spp/image.gif",
+    "media_type": "image"
+  },
+  {
+    "type": "FONDECYT",
+    "scope": "National",
+    "status": "Ongoing",
+    "period": "2026 – 2029",
+    "role": "Principal Investigator",
+    "summary": ".",
+    "link": "",
+    "publications": "",
+    "results": "",
+    "name": "(126205) Assessing Human-Induced Changes in Sediment Transport Dynamics in the Biobío River Through Hyperspectral and Morphodynamic Approaches"
+  },
+  {
+    "type": "CORFO",
+    "scope": "National",
+    "status": "Closed",
+    "period": "2019 – 2022",
+    "role": "General Director",
+    "summary": "Automatic characterization of river morphology provides valuable information for understanding river dynamics and supporting management and restoration. This study aimed to semi-automatically characterize the River Styles of the Duqueco River in south-central Chile using the South Rivers Toolbox (SRT), a QGIS tool developed to extract hydromorphological metrics and classify river segments. A total of 43 River Styles were identified, showing distinct characteristics along the upper, middle, and lower reaches. The results demonstrate that SRT can support the retrospective analysis of river evolution and identify sections sensitive to geomorphological changes, providing useful information for assessing flood risk and river management.",
+    "link": "https://vosores.github.io/SouthRiversToolbox/web/plugins.xml",
+    "publications": "https://doi.org/10.5194/piahs-385-189-2024",
+    "results": "",
+    "name": "(19BP117424) South Rivers Toolbox Modelo para predecir el comportamiento de la morfología fluvial del cauce dada la ocurrencia de eventos climaticos extremos",
+    "media": [
+      {
+        "src": "Projects/(19BP117424) South Rivers Toolbox Modelo para predecir el comportamiento de la morfolog#U00eda fluvial del cauce dada la ocurrencia de eventos climaticos extremos/image.png",
+        "type": "image",
+        "name": "image.png"
+      }
+    ],
+    "photo": "Projects/(19BP117424) South Rivers Toolbox Modelo para predecir el comportamiento de la morfolog#U00eda fluvial del cauce dada la ocurrencia de eventos climaticos extremos/image.png",
+    "media_type": "image"
+  },
+  {
+    "type": "International Cooperation",
+    "scope": "National",
+    "status": "Closed",
+    "period": "2024 – 2025",
+    "role": "Co-Investigator",
+    "summary": ".",
+    "link": "",
+    "publications": "",
+    "results": "",
+    "name": "(2022000609) Redes GeoEspaciales Explorando el uso de la Geomática y la Teledetección aplicada a la adaptación climática"
+  },
+  {
+    "type": "VRID",
+    "scope": "University Internal",
+    "status": "Ongoing",
+    "period": "2025 – 2027",
+    "role": "Co-Investigator",
+    "summary": ".",
+    "link": "",
+    "publications": "",
+    "results": "",
+    "name": "(2024001259INT) Dinámicas fluviales y transformaciones socio-territoriales en la cuenca del río Penco. Geomorfología fluvial, experiencias del río y soluciones basadas en la naturaleza"
+  },
+  {
+    "type": "VRID",
+    "scope": "University Internal",
+    "status": "Completed",
+    "period": "2022 – 2024",
+    "role": "Co-Investigator",
+    "summary": ".",
+    "link": "",
+    "publications": "",
+    "results": "",
+    "name": "(FOVI230039) Integración de sensores remotos, herramientas fisiológicas y genómicas para la selección de individuos de peumo resistentes a sequía"
+  }
+]

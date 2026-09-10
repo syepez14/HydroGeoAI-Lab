@@ -1,0 +1,24 @@
+HYDROGEOAI LAB V5
+
+This package is based directly on the repository ZIP supplied on 2026-09-09. Existing projects, images, GIFs, MP4 files, team profiles, collaborators, equipment, technologies, resources and publications were preserved.
+
+MULTIMEDIA
+Any dynamic folder can contain multiple JPG/JPEG/PNG/WEBP/GIF/MP4/WEBM/MOV/M4V files. They are all detected automatically. The first media item is the main item; up to three previews are displayed and the complete gallery opens fullscreen.
+
+TEAM
+Use Group: Lab Leader | Researcher | Postgraduate Student | Undergraduate Student | Other. Group is explicit and no longer needs to be guessed. Existing Santiago and Bastian profiles have been assigned Lab Leader and Postgraduate Student.
+
+NEWS
+Filter by Year and Month. Horizontal carousel.
+
+PROJECTS
+Horizontal carousel. Filter All / Open / Closed. Link: creates More information button.
+
+SERVICES / EQUIPMENT / TECHNOLOGIES / RESOURCES
+Horizontal carousels. Equipment Link: is supported. Technologies Documentation: is supported.
+
+PUBLICATIONS
+Initially shows the latest 3. Filter by year and use View all publications. Display includes title, authors, journal and year. DOI is a button only; raw DOI is not printed below the title. If Authors/Journal/Year are missing and DOI is present, build_data.py attempts to obtain them automatically from Crossref during GitHub Actions.
+
+WORKFLOW
+.github/workflows/build-data.yml is already included. After uploading this full repository, normal content commits should rebuild JSON automatically.
