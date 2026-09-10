@@ -54,27 +54,6 @@
     "name": "(126205) Assessing Human-Induced Changes in Sediment Transport Dynamics in the Biobío River Through Hyperspectral and Morphodynamic Approaches"
   },
   {
-    "type": "CORFO",
-    "scope": "National",
-    "status": "Closed",
-    "period": "2019 – 2022",
-    "role": "General Director",
-    "summary": "Automatic characterization of river morphology provides valuable information for understanding river dynamics and supporting management and restoration. This study aimed to semi-automatically characterize the River Styles of the Duqueco River in south-central Chile using the South Rivers Toolbox (SRT), a QGIS tool developed to extract hydromorphological metrics and classify river segments. A total of 43 River Styles were identified, showing distinct characteristics along the upper, middle, and lower reaches. The results demonstrate that SRT can support the retrospective analysis of river evolution and identify sections sensitive to geomorphological changes, providing useful information for assessing flood risk and river management.",
-    "link": "https://vosores.github.io/SouthRiversToolbox/web/plugins.xml",
-    "publications": "https://doi.org/10.5194/piahs-385-189-2024",
-    "results": "",
-    "name": "(19BP117424) South Rivers Toolbox Modelo para predecir el comportamiento de la morfología fluvial del cauce dada la ocurrencia de eventos climaticos extremos",
-    "media": [
-      {
-        "src": "Projects/(19BP117424) South Rivers Toolbox Modelo para predecir el comportamiento de la morfolog#U00eda fluvial del cauce dada la ocurrencia de eventos climaticos extremos/image.png",
-        "type": "image",
-        "name": "image.png"
-      }
-    ],
-    "photo": "Projects/(19BP117424) South Rivers Toolbox Modelo para predecir el comportamiento de la morfolog#U00eda fluvial del cauce dada la ocurrencia de eventos climaticos extremos/image.png",
-    "media_type": "image"
-  },
-  {
     "type": "International Cooperation",
     "scope": "National",
     "status": "Closed",
