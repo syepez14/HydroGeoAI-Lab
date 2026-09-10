@@ -23,6 +23,11 @@
         "src": "Team/Bastián A. Rivas Maldonado/photo.png",
         "type": "image",
         "name": "photo.png"
+      },
+      {
+        "src": "Team/Bastián A. Rivas Maldonado/photo2.png",
+        "type": "image",
+        "name": "photo2.png"
       }
     ],
     "photo": "Team/Bastián A. Rivas Maldonado/photo.png",
