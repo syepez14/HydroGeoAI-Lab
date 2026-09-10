@@ -1,9 +1,0 @@
-Type: Manual / Class / Guide / Dataset / Tutorial
-
-Year: 2026
-
-Summary: Short description of the resource.
-
-Link:
-
-Download:
