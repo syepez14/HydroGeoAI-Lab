@@ -16,6 +16,22 @@
     "media_type": "image"
   },
   {
+    "date": "2026-09-07",
+    "type": "News",
+    "summary": "Master’s IWS. The webinar will feature leading experts in water sciences, including a presentation by Professor Santiago Yépez on: “Spatial Remote Sensing of the Impacts of Aggregate Extraction on Rivers and Flood Risk in Chile.”.",
+    "link": "https://univ-lyon1.webex.com/wbxmjs/joinservice/sites/univ-lyon1/meeting/download/17b653cc6f174112858ecba0c3c334ae?MTID=m1b1bc10f98301061f994aca92b5cbe35",
+    "name": "Master´s IWS Webinar",
+    "media": [
+      {
+        "src": "News/Master´s IWS Webinar/image.png",
+        "type": "image",
+        "name": "image.png"
+      }
+    ],
+    "photo": "News/Master´s IWS Webinar/image.png",
+    "media_type": "image"
+  },
+  {
     "date": "2026-07-31",
     "type": "News",
     "summary": "Instead of trying to contain flooding with rigid structures, the challenge is to design solutions that adapt to the natural functioning of each watershed.",
