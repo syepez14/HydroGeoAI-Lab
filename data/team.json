@@ -1,5 +1,6 @@
 [
   {
+    "group": "Postgraduate Student",
     "position": "Thesis student · Master's student in Forestry",
     "studies": "Forest Engineer ·",
     "organization": "Universidad de Concepción · Chile",
@@ -20,15 +21,16 @@
     "name": "Bastián A. Rivas Maldonado",
     "media": [
       {
-        "src": "Team/Bastián A. Rivas Maldonado/photo.png",
+        "src": "Team/Basti#U00e1n A. Rivas Maldonado/photo.png",
         "type": "image",
         "name": "photo.png"
       }
     ],
-    "photo": "Team/Bastián A. Rivas Maldonado/photo.png",
+    "photo": "Team/Basti#U00e1n A. Rivas Maldonado/photo.png",
     "media_type": "image"
   },
   {
+    "group": "Lab Leader",
     "position": "Principal Investigator · Assistant Professor",
     "studies": "Geological Engineer · Master of Science in Earth Sciences, Specialization: Geology · Ph.D. in Hydrosedimentology and Remote Sensing",
     "organization": "Universidad de Concepción · Chile",
@@ -48,12 +50,12 @@
     "name": "Santiago P. Yépez Figueroa",
     "media": [
       {
-        "src": "Team/Santiago P. Yépez Figueroa/photo.jpg",
+        "src": "Team/Santiago P. Y#U00e9pez Figueroa/photo.jpg",
         "type": "image",
         "name": "photo.jpg"
       }
     ],
-    "photo": "Team/Santiago P. Yépez Figueroa/photo.jpg",
+    "photo": "Team/Santiago P. Y#U00e9pez Figueroa/photo.jpg",
     "media_type": "image"
   }
 ]

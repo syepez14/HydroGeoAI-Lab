@@ -1,8 +1,10 @@
 [
   {
     "year": "2025",
+    "authors": "Bastián Rivas; Víctor Osores; David González; Carlo Gualtieri; Santiago Yépez",
+    "journal": "Water",
     "doi": "10.3390/w17233413",
-    "link": "https://doi.org/10.3390/w17233413",
+    "link": "",
     "name": "Performance Evaluation of the SRM and GRxJ-CemaNeige Models for Daily Streamflow Simulation in Two Catchments with Snow and Rain Dominated Hydrological Regimes"
   }
 ]
