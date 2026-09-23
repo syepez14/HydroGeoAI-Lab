@@ -1,0 +1,15 @@
+Type: Course
+Topic: Remote Sensing
+Level: Introductory
+Format: Online
+Status: Coming Soon
+Start:
+Duration:
+Price:
+Instructor:
+Summary:
+Registration:
+Link:
+Syllabus:
+Documentation:
+Publications:
