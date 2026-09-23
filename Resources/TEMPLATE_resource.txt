@@ -1,0 +1,7 @@
+Type: Manual
+Year: 2026
+Summary:
+Link:
+Documentation:
+Publications:
+Download:
