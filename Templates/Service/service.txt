@@ -1,7 +1,0 @@
-Type: Remote Sensing
-Icon: remote
-Summary:
-Link:
-Website:
-Documentation:
-Publications:
