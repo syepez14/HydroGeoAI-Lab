@@ -1,7 +1,0 @@
-Date: YYYY-MM-DD
-
-Type: News
-
-Summary:
-
-Link:
