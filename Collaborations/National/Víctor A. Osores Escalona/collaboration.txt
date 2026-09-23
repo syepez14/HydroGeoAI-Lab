@@ -1,5 +1,0 @@
-Organization: Universidad Católica del Maule
-Country: Chile
-Summary: Mathematical Civil Engineer and Ph.D. in Applied Sciences with a specialization in Mathematical Engineering.
-Website:https://dmfe.pythonanywhere.com/academico/dr-victor-osores-escalona/gm3/
-LinkedIn:https://www.linkedin.com/in/victorosores/
