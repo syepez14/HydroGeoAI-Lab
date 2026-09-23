@@ -1,0 +1,5 @@
+Organization: Universidad de Concepción
+Country: Chile
+Summary: Geomorfología fluvial, transporte de sedimentos.
+Website:https://postgrado.udec.cl/index.php/catalogo/academico/maria-alejandra-elgueta-astaburuaga
+LinkedIn:

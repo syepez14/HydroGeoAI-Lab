@@ -1,0 +1,7 @@
+Title: Remote sensing, artificial intelligence and aquatic systems
+
+Description: HydroGeoAI Lab develops interdisciplinary research combining advanced remote sensing, geospatial technologies, artificial intelligence and environmental sciences to understand aquatic, fluvial and terrestrial systems.
+
+Mission: Advance the understanding, monitoring and sustainable management of aquatic and fluvial systems through the integration of remote sensing, geomatics, environmental sciences and artificial intelligence.
+
+Vision: Become a multidisciplinary reference laboratory in Latin America for advanced environmental observation and artificial intelligence applied to water, rivers, ecosystems and climate challenges.

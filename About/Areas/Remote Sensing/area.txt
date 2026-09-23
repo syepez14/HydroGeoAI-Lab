@@ -1,0 +1,2 @@
+Icon: remote
+Summary: Hyperspectral imaging, optical remote sensing, UAV observations, LiDAR, photogrammetry and advanced environmental sensing.
