@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "type": "Professional Course",
+    "topic": "Hyperspectral Remote Sensing",
+    "level": "Applied",
+    "format": "In-person",
+    "status": "Coming Soon",
+    "start": "",
+    "duration": "",
+    "price": "CLP 250,000 + VAT",
+    "instructor": "Dr. Santiago Yépez",
+    "summary": "Applied professional course on hyperspectral remote sensing for mining, from spectral data acquisition and preprocessing to spectral signatures, mineral discrimination, mapping and interpretation for mineral exploration and environmental applications.",
+    "registration": "",
+    "link": "",
+    "syllabus": "",
+    "documentation": "",
+    "publications": "",
+    "name": "Applied Hyperspectral Remote Sensing for Mining",
+    "media": [
+      {
+        "src": "Courses/Applied Hyperspectral Remote Sensing for Mining/image.png",
+        "type": "image",
+        "name": "image.png"
+      }
+    ],
+    "photo": "Courses/Applied Hyperspectral Remote Sensing for Mining/image.png",
+    "media_type": "image"
+  },
+  {
+    "type": "Professional Course",
+    "topic": "River Morphodynamics & GIS",
+    "level": "Applied",
+    "format": "In-person",
+    "status": "Coming Soon",
+    "start": "",
+    "duration": "",
+    "price": "CLP 200,000 + VAT",
+    "instructor": "Dr. Santiago Yépez",
+    "summary": "Hands-on professional course focused on the use of South Rivers Toolbox in QGIS for river morphodynamics, River Styles, multi-temporal channel change analysis, geomorphic characterization and support for river management.",
+    "registration": "",
+    "link": "https://github.com/vosores/SouthRiversToolbox",
+    "syllabus": "",
+    "documentation": "",
+    "publications": "https://piahs.copernicus.org/articles/385/189/2024/",
+    "name": "South Rivers Toolbox Version 1.0.2",
+    "media": [
+      {
+        "src": "Courses/South Rivers Toolbox Version 1.0.2/image.png",
+        "type": "image",
+        "name": "image.png"
+      }
+    ],
+    "photo": "Courses/South Rivers Toolbox Version 1.0.2/image.png",
+    "media_type": "image"
+  }
+]
