@@ -1,3 +1,0 @@
-Icon: 
-Summary: Flow estimation service using surface velocimetry based on the analysis of video sequences or aerial images. The service enables the derivation of surface velocity fields using pattern correlation techniques (PIV/LSPIV), integrating depth information to estimate river flow. This methodology allows for non-intrusive measurements and the spatial characterization of flow behavior, making it applicable to hydrological monitoring, river studies, and the assessment of changes in watercourses.
-Website:https://riverhydraulics.riverly.inrae.fr/eng/tools/measurement-software/fudaa-lspiv
