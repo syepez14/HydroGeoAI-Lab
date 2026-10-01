@@ -4,7 +4,7 @@ Organization: Universidad de Concepción · Chile
 
 Summary: My research examines the fluvial dynamics and morphological evolution of the Biobío, Laja, and Duqueco rivers through multitemporal remote sensing analysis of channel configuration, sediment bars, and surface water extent. It aims to identify river reaches susceptible to morphological adjustment in response to floods and extreme climatic events and to assess the effects of aggregate extraction on channel morphology and fluvial dynamics.
 
-Keywords: Geomorpholohy; Fluvial geomorphology; River mining
+Keywords: Rivers; Fluvial geomorphology; Impacts of Aggregate Mining on River Morphodynamics; Remote Sensing 
 
 LinkedIn: 
 
