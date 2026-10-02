@@ -55,6 +55,31 @@
     "media_type": "image"
   },
   {
+    "position": "Student ·",
+    "studies": "Geologist ·",
+    "organization": "Universidad de Concepción · Chile",
+    "summary": "Geologist focused on fluvial geomorphology, sediment transport and remote sensing. His research integrates multitemporal satellite imagery, geospatial analysis and field observations to study river dynamics and environmental change. His previous work examined the morphological evolution of the Laja River, while his current research focuses on the spatial and temporal variability of sediment transport in the Biobío River and its relationship with hydrological and morphological dynamics.",
+    "keywords": [
+      "Geomorphology",
+      "Remote Sensing",
+      "Sediment transport"
+    ],
+    "linkedin": "www.linkedin.com/in/joaquín-espinoza-sandoval-43a792302",
+    "researchgate": "https://www.researchgate.net/profile/Joaquin-Espinoza-Sandoval?ev=hdr_xprf",
+    "orcid": "",
+    "website": "",
+    "name": "Joaquín S. Espinoza Sandoval",
+    "media": [
+      {
+        "src": "Team/Joaquín S. Espinoza Sandoval/photo.jpeg",
+        "type": "image",
+        "name": "photo.jpeg"
+      }
+    ],
+    "photo": "Team/Joaquín S. Espinoza Sandoval/photo.jpeg",
+    "media_type": "image"
+  },
+  {
     "position": "Principal Investigator · Associate Professor",
     "studies": "Geological Engineer · Master of Science in Earth Sciences, Specialization: Geology · Ph.D. in Hydrosedimentology and Remote Sensing",
     "organization": "Universidad de Concepción · Chile",
