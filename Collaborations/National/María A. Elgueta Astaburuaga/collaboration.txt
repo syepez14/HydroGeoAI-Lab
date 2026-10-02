@@ -1,5 +1,5 @@
 Organization: Universidad de Concepción
 Country: Chile
-Summary: Geomorfología fluvial, transporte de sedimentos.
+Summary: Fluvial geomorphology, river system dynamics, sediment transport, and channel evolution. Her research focuses on the dynamics of fluvial systems and channel responses to changes in sediment supply, integrating geomorphological processes with territorial transformations.
 Website:https://postgrado.udec.cl/index.php/catalogo/academico/maria-alejandra-elgueta-astaburuaga
 LinkedIn:
