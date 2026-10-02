@@ -5,7 +5,7 @@ Format: In-person
 Status: Coming Soon
 Start:
 Duration:
-Price: CLP 250,000 + VAT
+Price: CLP 550,000 + VAT
 Instructor: Dr. Santiago Yépez
 Summary: Applied professional course on hyperspectral remote sensing for mining, from spectral data acquisition and preprocessing to spectral signatures, mineral discrimination, mapping and interpretation for mineral exploration and environmental applications.
 Registration:
