@@ -5,7 +5,7 @@ Format: In-person
 Status: Coming Soon
 Start:
 Duration:
-Price: CLP 250,000 + VAT
+Price: CLP 450,000 + VAT
 Instructor: Dr. Santiago Yépez
 Summary: Advanced professional course in ENVI focused on image visualization, spectral analysis, preprocessing, Hyperion workflows, atmospheric correction, hyperspectral interpretation, spectral classification and applied environmental analysis.
 Registration:
