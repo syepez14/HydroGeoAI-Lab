@@ -5,7 +5,7 @@ Format: In-person
 Status: Coming Soon
 Start:
 Duration:
-Price: CLP 200,000 + VAT
+Price: CLP 400,000 + VAT
 Instructor: Dr. Santiago Yépez
 Summary: Hands-on professional course focused on the use of South Rivers Toolbox in QGIS for river morphodynamics, River Styles, multi-temporal channel change analysis, geomorphic characterization and support for river management.
 Registration:
