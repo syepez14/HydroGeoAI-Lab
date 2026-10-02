@@ -28,6 +28,33 @@
   },
   {
     "type": "Professional Course",
+    "topic": "ENVI & Hyperspectral Remote Sensing",
+    "level": "Applied",
+    "format": "In-person",
+    "status": "Coming Soon",
+    "start": "",
+    "duration": "",
+    "price": "CLP 250,000 + VAT",
+    "instructor": "Dr. Santiago Yépez",
+    "summary": "Advanced professional course in ENVI focused on image visualization, spectral analysis, preprocessing, Hyperion workflows, atmospheric correction, hyperspectral interpretation, spectral classification and applied environmental analysis.",
+    "registration": "",
+    "link": "",
+    "syllabus": "",
+    "documentation": "",
+    "publications": "",
+    "name": "ENVI Professional Course",
+    "media": [
+      {
+        "src": "Courses/ENVI Professional Course/image.png",
+        "type": "image",
+        "name": "image.png"
+      }
+    ],
+    "photo": "Courses/ENVI Professional Course/image.png",
+    "media_type": "image"
+  },
+  {
+    "type": "Professional Course",
     "topic": "River Morphodynamics & GIS",
     "level": "Applied",
     "format": "In-person",
