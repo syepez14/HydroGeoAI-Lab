@@ -6,7 +6,7 @@ Summary: Geologist focused on fluvial geomorphology, sediment transport and remo
 
 Keywords: Geomorphology; Remote Sensing; Sediment transport
 
-LinkedIn: www.linkedin.com/in/joaquín-espinoza-sandoval-43a792302
+LinkedIn: https://www.linkedin.com/in/joaqu%C3%ADn-espinoza-sandoval-43a792302/?isSelfProfile=false
 
 ResearchGate: https://www.researchgate.net/profile/Joaquin-Espinoza-Sandoval?ev=hdr_xprf
 
