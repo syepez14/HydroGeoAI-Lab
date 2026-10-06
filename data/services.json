@@ -6,13 +6,18 @@
     "name": "Flow estimation service using surface velocimetry based on the analysis of video sequences or aerial images",
     "media": [
       {
+        "src": "Services/Flow estimation service using surface velocimetry based on the analysis of video sequences or aerial images/image2.jpeg",
+        "type": "image",
+        "name": "image2.jpeg"
+      },
+      {
         "src": "Services/Flow estimation service using surface velocimetry based on the analysis of video sequences or aerial images/image.mp4",
         "type": "video",
         "name": "image.mp4"
       }
     ],
-    "photo": "Services/Flow estimation service using surface velocimetry based on the analysis of video sequences or aerial images/image.mp4",
-    "media_type": "video"
+    "photo": "Services/Flow estimation service using surface velocimetry based on the analysis of video sequences or aerial images/image2.jpeg",
+    "media_type": "image"
   },
   {
     "icon": "",
