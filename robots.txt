@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://syepez14.github.io/HydroGeoAI-Lab/sitemap.xml
