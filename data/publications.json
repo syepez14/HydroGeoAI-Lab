@@ -1,10 +1,26 @@
 [
   {
+    "year": "2026",
+    "authors": "Oscar Cartes; Santiago Yépez; Germán Velásquez; Lien Rodríguez-López; Luc Bourrel; Frédéric Frappart; Aried Lozano; Rodrigo Saavedra-Passache; Carlo Gualtieri; Jordi Cristóbal",
+    "journal": "Water",
+    "doi": "10.3390/w18101230",
+    "link": "",
+    "name": "Evaluation of Baseline Water Quality Conditions and Episodic Biomass Increases in Lake Villarrica Using Hyperspectral and Multispectral Data"
+  },
+  {
     "year": "2025",
     "authors": "Bastián Rivas; Víctor Osores; David González; Carlo Gualtieri; Santiago Yépez",
     "journal": "Water",
     "doi": "10.3390/w17233413",
     "link": "",
     "name": "Performance Evaluation of the SRM and GRxJ-CemaNeige Models for Daily Streamflow Simulation in Two Catchments with Snow and Rain Dominated Hydrological Regimes"
+  },
+  {
+    "year": "2024",
+    "authors": "Juan Munizaga; Octavio Rojas; Bernardo Lagos; Carolina Rojas; Santiago Yépez; Esteban Hernández; Fernando Ureta; Francisco de la Barrera; Daniel Jato-Espino",
+    "journal": "Ecological Indicators",
+    "doi": "10.1016/j.ecolind.2024.112919",
+    "link": "",
+    "name": "Spatiotemporal vegetation dynamics in a highly urbanized Chilean coastal wetland Insights on long-term natural and anthropogenic influences"
   }
 ]
