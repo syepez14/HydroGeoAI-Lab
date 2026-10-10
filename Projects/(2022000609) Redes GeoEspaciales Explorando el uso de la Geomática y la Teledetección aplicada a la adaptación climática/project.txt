@@ -1,4 +1,4 @@
-Type: International Cooperation
+Type: FOVI
 Scope: National
 Status: Closed
 Period: 2024 – 2025
