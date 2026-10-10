@@ -1,11 +1,115 @@
 [
   {
+    "year": "2020",
+    "authors": "Andrea Nardini, Santiago Yépez; Maria Dolores Bejarano",
+    "journal": "Geosciences",
+    "doi": "10.3390/geosciences10060231",
+    "link": "",
+    "name": "A Computer Aided Approach for River Styles—Inspired Characterization of Large Basins A Structured Procedure and Support Tools"
+  },
+  {
+    "year": "2020",
+    "authors": "Andrea Nardini, Santiago Yépez; Lislie Zuniga; Carlo Gualtieri; Maria Dolores Bejarano",
+    "journal": "Water",
+    "doi": "10.3390/w12041147",
+    "link": "",
+    "name": "A Computer Aided Approach for River Styles—Inspired Characterization of Large Basins The Magdalena River (Colombia)"
+  },
+  {
+    "year": "2020",
+    "authors": "Andrea Nardini; Santiago Yépez; Bruno Mazzorana; Héctor Ulloa; María Dolores Bejarano;Alain Laraque",
+    "journal": "Water",
+    "doi": "10.3390/w12102827",
+    "link": "",
+    "name": "A Systematic, Automated Approach for River Segmentation Tested on the Magdalena River (Colombia) and the Baker River (Chile)"
+  },
+  {
+    "year": "2021",
+    "authors": "Daniel F. Araújo; Emmanuel Ponzevera; Dominik Jakob Weiss; Joël Knoery; Nicolas Briant; Santiago Yépez; Sandrine Bruzac; Teddy Sireau; Christophe Brach-Papa",
+    "journal": "ACS EST Water",
+    "doi": "10.1021/acsestwater.1c00010",
+    "link": "",
+    "name": "Application of Zn Isotope Compositions in Oysters to Monitor and Quantify Anthropogenic Zn Bioaccumulation in Marine Environments over Four Decades A “Mussel Watch Program” Upgrade"
+  },
+  {
+    "year": "2019",
+    "authors": "Marjorie Gallay; Jean-Michel Martinez; Abrahan Mora; Bartolo Castellano; Santiago Yépez; Gérard Cochonneau; Juan A. Alfonso; Juan Manuel Carrera; José Luis López; Alain Laraque",
+    "journal": "Journal of South American Earth Sciences",
+    "doi": "10.1016/j.jsames.2019.01.010",
+    "link": "",
+    "name": "Assessing Orinoco river sediment discharge trend using MODIS satellite images"
+  },
+  {
+    "year": "2023",
+    "authors": "Andrea Gianni Cristoforo Nardini; Francisca Salas; Zoila Carrasco; Noelia Valenzuela; Renzo Rojas; José Vargas-Baecheler; Santiago Yépez",
+    "journal": "Water",
+    "doi": "10.3390/w15142539",
+    "link": "",
+    "name": "Automatic River Planform Recognition Tested on Chilean Rivers"
+  },
+  {
+    "year": "2021",
+    "authors": "Brayam Hincapié; Alexander Cortés-Soto; Mauricio A.Bermúdez; Santiago Yépez; Juan Sebastián Trujillo-Hernández; Blanca Myriam Salguero-Londoño; Sebastián Grande",
+    "journal": "Earth Sciences Research Journal",
+    "doi": "10.15446/esrj.v25n3.79170",
+    "link": "",
+    "name": "Coffee plantation soil characterization using a multi-method approach near the Volcano Nevado del Ruiz, Colombian Central Cordillera"
+  },
+  {
+    "year": "2024",
+    "authors": "Neftali Flores; Rolando Rodríguez; Santiago Yépez; Victor Osores; Pedro Rau; Diego Rivera; Francisco Balocchi",
+    "journal": "Water",
+    "doi": "10.3390/w13223191",
+    "link": "",
+    "name": "Comparison of Three Daily Rainfall-Runoff Hydrological Models Using Four Evapotranspiration Models in Four Small Forested Watersheds with Different Land Cover in South-Central Chile"
+  },
+  {
+    "year": "2022",
+    "authors": "Alain Laraque; Jérôme Le Coz; Guy Dieudonne Moukandi N’kaya; Grace Bissemo; Levy Ayissou; Nathalie Rouché; Jean-Pierre Bricquet; Santiago Yépez; Georges Gulemvuga",
+    "journal": "Hydroscience journal",
+    "doi": "10.1080/27678490.2022.2082338",
+    "link": "",
+    "name": "Courbes de tarage du fleuve Congo à Brazzaville-Kinshasa"
+  },
+  {
+    "year": "2023",
+    "authors": "Lien Rodríguez-López; David Bustos Usta; Iongel Duran-Llacer; Lisandra Bravo Alvarez; Santiago Yépez; Luc Bourrel; Frederic Frappart; Roberto Urrutia",
+    "journal": "Remote Sensing",
+    "doi": "10.3390/rs15174157",
+    "link": "",
+    "name": "Estimation of Water Quality Parameters through a Combination of Deep Learning and Remote Sensing Techniques in a Lake in Southern Chile"
+  },
+  {
     "year": "2026",
     "authors": "Oscar Cartes; Santiago Yépez; Germán Velásquez; Lien Rodríguez-López; Luc Bourrel; Frédéric Frappart; Aried Lozano; Rodrigo Saavedra-Passache; Carlo Gualtieri; Jordi Cristóbal",
     "journal": "Water",
     "doi": "10.3390/w18101230",
     "link": "",
     "name": "Evaluation of Baseline Water Quality Conditions and Episodic Biomass Increases in Lake Villarrica Using Hyperspectral and Multispectral Data"
+  },
+  {
+    "year": "2023",
+    "authors": "Francisco Balocchi; Mauricio Galleguillos; Diego Rivera; Alejandra Stehr; Jose Luis Arumi; Roberto Pizarro; Pablo Garcia-Chevesich; Andrés Iroumé; Juan J. Armesto; Pedro Hervé-Fernández; Carlos Oyarzún; Pilar Barría; Christian Little; Gabriel Mancilla; Santiago Yépez; Rolando Rodriguez; Don A. White; Richard P. Silberstein; Daniel G. Neary; Pablo Ramírez de Arellano",
+    "journal": "Journal of Hydrology",
+    "doi": "10.1016/j.jhydrol.2022.128681",
+    "link": "",
+    "name": "Forest hydrology in Chile Past, present, and future"
+  },
+  {
+    "year": "2024",
+    "authors": "Andrea Gianni Cristoforo Nardini; Constanza Gonzalez; Angela Contreras; Germán Velásquez; José Vargas-Baecheler; Hervé Piégay; Joaquin Espinoza; Santiago Yépez",
+    "journal": "Sustainability",
+    "doi": "10.3390/su16093642",
+    "link": "",
+    "name": "Linking the Evolution of the Andalién River Morphology (Central–Southern Chile) to Anthropogenic Interventions by Using a New QGIS Tool"
+  },
+  {
+    "year": "2021",
+    "authors": "Daniel F. Araújo; Joël Knoery; Nicolas Briant; Emmanuel Ponzevera; Tiphaine Chouvelon; Isabelle Auby; Santiago Yépez; Sandrine Bruzac; Teddy Sireau; Anne Pellouin-Grouhel; Farida Akcha",
+    "journal": "Environmental Pollution",
+    "doi": "10.1016/j.envpol.2021.118012",
+    "link": "",
+    "name": "Metal stable isotopes in transplanted oysters as a new tool for monitoring anthropogenic metal bioaccumulation in marine environments The case for copper"
   },
   {
     "year": "2025",
@@ -17,10 +121,42 @@
   },
   {
     "year": "2024",
+    "authors": "Santiago Yépez; Francisca Salas; Andrea Nardini; Noelina Valenzuela; Víctor Osores; José Vargas; Rolando Rodríguez; Hervé Piégay",
+    "journal": "Proceedings of IAHS",
+    "doi": "10.5194/piahs-385-189-2024",
+    "link": "",
+    "name": "Semi-automated morphological characterization using South Rivers Toolbox"
+  },
+  {
+    "year": "2024",
+    "authors": "Santiago Yépez; Germán Velásquez; Daniel Torres; Rodrigo Saavedra-Passache; Martin Pincheira; Hayleen Cid; Lien Rodríguez-López; Angela Contreras; Frédéric Frappart; Jordi Cristóbal; Xavier Pons; Neftali Flores; Luc Bourrel",
+    "journal": "Remote Sensing",
+    "doi": "10.3390/rs16020427",
+    "link": "",
+    "name": "Spatiotemporal Variations in Biophysical Water Quality Parameters An Integrated In Situ and Remote Sensing Analysis of an Urban Lake in Chile"
+  },
+  {
+    "year": "2024",
     "authors": "Juan Munizaga; Octavio Rojas; Bernardo Lagos; Carolina Rojas; Santiago Yépez; Esteban Hernández; Fernando Ureta; Francisco de la Barrera; Daniel Jato-Espino",
     "journal": "Ecological Indicators",
     "doi": "10.1016/j.ecolind.2024.112919",
     "link": "",
     "name": "Spatiotemporal vegetation dynamics in a highly urbanized Chilean coastal wetland Insights on long-term natural and anthropogenic influences"
+  },
+  {
+    "year": "2021",
+    "authors": "Roberto De la Rosa; Milagrosa Aldana; Vicenzo Constanzo-Alvarez; Santiago Yépez; Cristina Amon",
+    "journal": "Journal of South American Earth Sciences",
+    "doi": "10.1016/j.jsames.2020.103036",
+    "link": "",
+    "name": "The surface expression of hydrocarbon seeps characterized by satellite image spectral analysis and rock magnetic data (Falcon basin, western Venezuela)"
+  },
+  {
+    "year": "2019",
+    "authors": "Alain Laraque; Jose Luis Lopez; Santiago Yépez; Paul Georgescu",
+    "journal": "Water",
+    "doi": "10.3390/w11102068",
+    "link": "",
+    "name": "Water and Sediment Budget of Casiquiare Channel Linking Orinoco and Amazon Catchments, Venezuela †"
   }
 ]
