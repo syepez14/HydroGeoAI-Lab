@@ -16,7 +16,7 @@ Sus líneas de trabajo incluyen, entre otras:
 
 ## Página web
 
-La página web oficial de HydroGeoAI Lab fue desarrollada por Bastián Rivas Maldonado con apoyo de ChatGPT Plus.
+La página web oficial de HydroGeoAI Lab fue desarrollada por Bastián A. Rivas Maldonado (https://barm2000.github.io/Bastian-Rivas/#inicio) con apoyo de ChatGPT Plus (2026).
 
 El sitio fue diseñado como una plataforma modular y dinámica, permitiendo incorporar y actualizar contenidos del laboratorio de forma sencilla mediante carpetas y archivos de texto, incluyendo:
 
@@ -42,28 +42,8 @@ El contenido del sitio se organiza mediante carpetas independientes, lo que perm
 
 ## Mantención, incorporación y actualización
 
-- 2026, Septiembre 09: Bastián Rivas M. — Creación, configuración y actualización general de la página web.
+- 2026, Septiembre 09: Bastián A. Rivas M. — Creación, configuración y actualización general de la página web.
+- 2026, Octubre 10: Bastián A. Rivas M. — Incorporación de información y correcciones.
 
-## Versión 6 — navegación y contenidos dinámicos
 
-La versión actual incorpora movimiento horizontal automático en las colecciones de contenido, filtros dinámicos, galerías multimedia automáticas y contadores generales del laboratorio.
-
-### Proyectos
-
-Los proyectos pueden filtrarse por `Type` y `Status`. Los valores se leen directamente desde cada `project.txt`, por lo que se pueden usar categorías como `FONDECYT`, `VRID`, `CORFO`, etc., y estados en inglés como `Open`, `Ongoing`, `In Progress`, `Closed` o `Completed`.
-
-### Servicios
-
-Los servicios admiten el campo `Type:` para filtrar la sección. Al seleccionar o abrir un servicio se muestra una vista ampliada con su información y enlaces.
-
-### Cursos
-
-La carpeta `/Courses` permite publicar cursos pagados, talleres y programas de formación. Cada curso utiliza una carpeta propia con `course.txt` y multimedia opcional. La página permite filtrar por tema, nivel, formato y estado.
-
-### Multimedia
-
-Una carpeta puede contener una o más imágenes, GIF o videos. Cuando hay varios archivos, la tarjeta los rota automáticamente y mantiene navegación manual y apertura en pantalla completa.
-
-### Varios enlaces en un mismo campo
-
-Los campos como `Publications:`, `Results:`, `Documentation:`, `Link:` y otros admiten múltiples URLs. Se pueden separar por punto y coma o escribir una URL por línea. La página crea automáticamente un botón para cada enlace.
+## Quienes estén interesados en colaborar, desarrollar investigaciones, impulsar proyectos conjuntos o solicitar servicios, pueden contactarnos directamente a través del correo electrónico disponible en esta página.
