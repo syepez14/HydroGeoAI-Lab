@@ -1,0 +1,8 @@
+Year: 2023
+
+Authors: Francisco Balocchi; Mauricio Galleguillos; Diego Rivera; Alejandra Stehr; Jose Luis Arumi; Roberto Pizarro; Pablo Garcia-Chevesich; Andrés Iroumé; Juan J. Armesto; Pedro Hervé-Fernández; Carlos Oyarzún; Pilar Barría; Christian Little; Gabriel Mancilla; Santiago Yépez; Rolando Rodriguez; Don A. White; Richard P. Silberstein; Daniel G. Neary; Pablo Ramírez de Arellano
+
+Journal: Journal of Hydrology
+
+DOI: https://doi.org/10.1016/j.jhydrol.2022.128681
+Link:

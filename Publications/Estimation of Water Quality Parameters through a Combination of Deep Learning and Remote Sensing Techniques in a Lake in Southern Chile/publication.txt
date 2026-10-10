@@ -1,0 +1,8 @@
+Year: 2023
+
+Authors: Lien Rodríguez-López; David Bustos Usta; Iongel Duran-Llacer; Lisandra Bravo Alvarez; Santiago Yépez; Luc Bourrel; Frederic Frappart; Roberto Urrutia
+
+Journal: Remote Sensing
+
+DOI: 10.3390/rs15174157
+Link:
