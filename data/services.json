@@ -25,10 +25,13 @@
     "media_type": "image"
   },
   {
+    "type": "Remote Sensing",
     "icon": "",
-    "summary": "ThermoCanopy is an aerial monitoring service that uses drones equipped with thermal cameras to measure and map the temperature of individual trees or plants across vineyards, agricultural fields, and forest plantations.\n\nThermal information can reveal patterns of water stress and variations in plant transpiration and evapotranspiration, providing a high-resolution spatial view of vegetation physiological status. By capturing temperature at the individual-tree or plant level, ThermoCanopy can help identify areas of stress, characterize within-field variability, and support more informed decisions regarding irrigation, silvicultural management, and early stress detection.",
-    "from_canopy_temperature_to_plant_physiology": "ThermoCanopy transforms high-resolution thermal imagery into actionable information about the spatial and temporal variability of vegetation condition.",
+    "summary": "ThermoCanopy is an aerial monitoring service that uses drones equipped with thermal cameras to measure and map the temperature of individual trees or plants across vineyards, agricultural fields, and forest plantations.\n\nThermal information can reveal patterns of water stress and variations in plant transpiration and evapotranspiration, providing a high-resolution spatial view of vegetation physiological status. By capturing temperature at the individual-tree or plant level, ThermoCanopy can help identify areas of stress, characterize within-field variability, and support more informed decisions regarding irrigation, silvicultural management, and early stress detection. From canopy temperature to plant physiology: ThermoCanopy transforms high-resolution thermal imagery into actionable information about the spatial and temporal variability of vegetation condition.",
+    "link": "",
     "website": "",
+    "documentation": "",
+    "publications": "",
     "name": "ThermoCanopy - Precision Thermal Monitoring",
     "media": [
       {
