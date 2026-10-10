@@ -1,5 +1,5 @@
 Type: Professional Course
-Topic: ENVI & Hyperspectral Remote Sensing
+Topic: Remote Sensing
 Level: Applied
 Format: In-person
 Status: Coming Soon
