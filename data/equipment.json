@@ -186,7 +186,16 @@
     "model": "",
     "summary": ".",
     "link": "",
-    "name": "PlanetScope data access subscription"
+    "name": "PlanetScope data access subscription",
+    "media": [
+      {
+        "src": "Equipment/PlanetScope data access subscription/image.jpg",
+        "type": "image",
+        "name": "image.jpg"
+      }
+    ],
+    "photo": "Equipment/PlanetScope data access subscription/image.jpg",
+    "media_type": "image"
   },
   {
     "model": "",
