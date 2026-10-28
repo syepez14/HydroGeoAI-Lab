@@ -1,0 +1,9 @@
+Type: FONDECYT
+Scope: National
+Status: Ongoing
+Period: 2025 – 2029
+Role: Co-Investigator
+Summary: The project aims to develop a high-throughput phenotyping system for Eucalyptus spp. by integrating 3D and hyperspectral data, supplemented by artificial intelligence tools. The goal is to identify, based on the plants’ spectral signatures and structural characteristics, areas affected by abiotic stress and to generate indicators that enable early and accurate detection of stress.
+Link:
+Publications:
+Results:
