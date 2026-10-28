@@ -1,0 +1,57 @@
+HYDROGEOAI LAB V6
+
+NEW FEATURES
+- Automatic horizontal movement in News, Projects, Services, Courses, Team, Collaborations, Equipment, Technologies, Resources and Publications.
+- Automatic multimedia rotation inside cards, with visible arrows and fullscreen view.
+- Project filters: Type + Status.
+- Services filter by Type and expanded detail view.
+- New Courses section with Topic, Level, Format and Status filters plus expanded detail view.
+- Automatic counters: Projects, Publications, Team members, Collaborators, Technologies and Courses.
+- Multiple URLs supported in link fields. Separate URLs with semicolons or new lines.
+- Publications also support Year + Journal filters.
+
+COURSES
+Create:
+Courses/Course Name/course.txt
+
+Suggested fields:
+Type: Course
+Topic: Remote Sensing
+Level: Introductory
+Format: Online
+Status: Open
+Start: 2026-11-15
+Duration: 12 hours
+Price: CLP 120,000
+Instructor: Name
+Summary: Description
+Registration: https://...
+Link: https://...
+Syllabus: https://...
+Documentation: https://...
+Publications: https://...; https://...
+
+PROJECT STATUS VALUES
+Recommended English values:
+Open
+Ongoing
+In Progress
+Closed
+Completed
+
+MULTIPLE LINKS
+Example:
+Publications: https://doi.org/xxx; https://doi.org/yyy
+
+or:
+Publications:
+https://doi.org/xxx
+https://doi.org/yyy
+
+
+V6.2 refinements
+- Project, Service and Course filters never auto-open a card.
+- View details opens a centered overlay instead of a panel below the section.
+- Muted videos autoplay in cards, including a service with a single MP4.
+- Publications are a vertical list: latest 5 first, then View all publications +.
+- Services added to the homepage counters.
