@@ -1,7 +1,0 @@
-Date: 2026-07-31
-
-Type: News
-
-Summary: Instead of trying to contain flooding with rigid structures, the challenge is to design solutions that adapt to the natural functioning of each watershed.
-
-Link: https://noticias.udec.cl/gestion-inteligente-de-cuencas-en-la-era-de-los-eventos-extremos/
