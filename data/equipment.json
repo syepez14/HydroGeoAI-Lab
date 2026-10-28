@@ -1,5 +1,146 @@
 [
   {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "2 Full HD computer monitors"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "2 high-performance desktop computers"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "8 batteries for the DJI Matrice 210 RTK"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "8 batteries for the DJI Matrice 4 Enterprise"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "Agisoft Metashape software license"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "ArcGIS Pro software license"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "Bathymetric echosounder"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "Black-and-white thermal calibration panels"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "Differential GPS (DGPS) system"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "DJI D-RTK 3 Enterprise Station"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "DJI Matrice 210 RTK drone"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "DJI Matrice 4 Enterprise with D-RTK 3"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "DJI Terra software license"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "DJI Zenmuse X7 camera"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "ENVI software license"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "Fishing waders"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "FLIR thermal imaging camera"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "FlowTracker ADV"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "Garmin GPS receiver"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "GoPro HERO8 Black camera"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "INRAE staff gauge"
+  },
+  {
+    "model": "Micasense Altum-PT",
+    "summary": "The Micasense Altum PT is the upgraded version of the Micasense Altum, now featuring twice the thermal resolution and a 12.4MP panchromatic sensor for pansharpening, which will enable higher spatial resolution in multispectral images.",
+    "link": "https://heliboss.cl/camara-drone-multiespectral/2389-micasense-altum-pt.html",
+    "name": "MicaSense Altum Multispectral and Thermal Camera",
+    "media": [
+      {
+        "src": "Equipment/MicaSense Altum Multispectral and Thermal Camera/image.jpg",
+        "type": "image",
+        "name": "image.jpg"
+      }
+    ],
+    "photo": "Equipment/MicaSense Altum Multispectral and Thermal Camera/image.jpg",
+    "media_type": "image"
+  },
+  {
     "model": "Micasense Altum-PT",
     "summary": "The Micasense Altum PT is the upgraded version of the Micasense Altum, now featuring twice the thermal resolution and a 12.4MP panchromatic sensor for pansharpening, which will enable higher spatial resolution in multispectral images.",
     "link": "https://heliboss.cl/camara-drone-multiespectral/2389-micasense-altum-pt.html",
@@ -13,5 +154,47 @@
     ],
     "photo": "Equipment/Micasense Altum-PT Multispectral and Thermal Camera/image.jpg",
     "media_type": "image"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "Parachute system for the DJI Matrice 4 Enterprise"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "PlanetScope data access subscription"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "PPK drone positioning system"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "Red-and-white ground control point (GCP) marker"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "TriOS RAMSES radiometer for aquatic applications"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "Van Dorn water sampler"
+  },
+  {
+    "model": "",
+    "summary": ".",
+    "link": "",
+    "name": "Water sample filtration system"
   }
 ]
