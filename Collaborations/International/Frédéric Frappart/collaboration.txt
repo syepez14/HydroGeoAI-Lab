@@ -1,6 +1,0 @@
-Organization: INRAE – ISPA, ECOFUN Research Team
-Country: France
-Summary: My research focuses on Remote Sensing and Hydrology, particularly the use of satellite radar altimetry to monitor inland water bodies and floodplains. My work combines satellite observations, hydrological modelling, and data analysis to estimate surface water levels and volumes and improve the monitoring of water resources and flood dynamic.
-Website:https://ecofun.ispa.bordeaux.inrae.fr/index.php/people/frederic-frappart/
-ORCID: https://orcid.org/0000-0002-4661-8274
-

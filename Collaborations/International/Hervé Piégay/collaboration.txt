@@ -1,5 +1,0 @@
-Organization: CNRS – École Normale Supérieure de Lyon, University of Lyon
-Country: France
-Summary: My research focuses on Fluvial Geomorphology and River Restoration. My work investigates river channel dynamics, sediment transport, riparian vegetation, and the impacts of human activities on river systems. I use field measurements, GIS, remote sensing, and historical data to understand river changes and support sustainable river management and restoration.
-Website:https://umr5600.cnrs.fr/fr/lequipe/name/herve-piegay/
-ORCID:https://orcid.org/0000-0003-1243-6955
