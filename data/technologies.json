@@ -2,8 +2,8 @@
   {
     "type": "Software",
     "version": "1.0.0",
-    "summary": "HydroGeoIA Lab software suite for image-based river velocimetry and surface-flow analysis from videos and aerial imagery. It integrates PIV, optical flow, FFPTV and STIV workflows, metric calibration, dense velocity-vector visualization, method comparison and export of results for river and channel monitoring.",
-    "link": "",
+    "summary": "HydroGeoIA Lab software suite for image-based river velocimetry and surface-flow analysis from videos and aerial imagery. It integrates PIV, optical flow, FFPTV and STIV workflows, metric calibration, dense velocity-vector visualization, method comparison and export of results for river and channel monitoring. For: Bastián A. Rivas Maldonado",
+    "link": "https://barm2000.github.io/Bastian-Rivas/",
     "repository": "",
     "documentation": "",
     "name": "RiverVision Image Velocimetry Suite",
