@@ -1,9 +1,0 @@
-HydroGeoIA Lab v7.1 — minimal update
-
-Upload the files in this package preserving the same paths.
-
-Important:
-- Official visible name: HydroGeoIA Lab.
-- Do NOT rename the GitHub repository; its URL remains HydroGeoAI-Lab.
-- Existing folder names are unchanged.
-- The visit counter now uses CounterAPI's recommended browser embed.
