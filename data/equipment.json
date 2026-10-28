@@ -27,7 +27,16 @@
     "model": "",
     "summary": ".",
     "link": "",
-    "name": "Agisoft Metashape software license"
+    "name": "Agisoft Metashape software license",
+    "media": [
+      {
+        "src": "Equipment/Agisoft Metashape software license/image.jpg",
+        "type": "image",
+        "name": "image.jpg"
+      }
+    ],
+    "photo": "Equipment/Agisoft Metashape software license/image.jpg",
+    "media_type": "image"
   },
   {
     "model": "",
