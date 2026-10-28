@@ -6,7 +6,26 @@
     "link": "",
     "repository": "",
     "documentation": "",
-    "name": "RiverVision Image Velocimetry Suite"
+    "name": "RiverVision Image Velocimetry Suite",
+    "media": [
+      {
+        "src": "Technologies/RiverVision Image Velocimetry Suite/image.png",
+        "type": "image",
+        "name": "image.png"
+      },
+      {
+        "src": "Technologies/RiverVision Image Velocimetry Suite/image3.png",
+        "type": "image",
+        "name": "image3.png"
+      },
+      {
+        "src": "Technologies/RiverVision Image Velocimetry Suite/image2.mp4",
+        "type": "video",
+        "name": "image2.mp4"
+      }
+    ],
+    "photo": "Technologies/RiverVision Image Velocimetry Suite/image.png",
+    "media_type": "image"
   },
   {
     "type": "Software",
