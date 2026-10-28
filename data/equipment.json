@@ -93,7 +93,16 @@
     "model": "",
     "summary": ".",
     "link": "",
-    "name": "DJI Terra software license"
+    "name": "DJI Terra software license",
+    "media": [
+      {
+        "src": "Equipment/DJI Terra software license/image.jpg",
+        "type": "image",
+        "name": "image.jpg"
+      }
+    ],
+    "photo": "Equipment/DJI Terra software license/image.jpg",
+    "media_type": "image"
   },
   {
     "model": "",
