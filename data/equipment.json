@@ -42,7 +42,16 @@
     "model": "",
     "summary": ".",
     "link": "",
-    "name": "ArcGIS Pro software license"
+    "name": "ArcGIS Pro software license",
+    "media": [
+      {
+        "src": "Equipment/ArcGIS Pro software license/image.png",
+        "type": "image",
+        "name": "image.png"
+      }
+    ],
+    "photo": "Equipment/ArcGIS Pro software license/image.png",
+    "media_type": "image"
   },
   {
     "model": "",
