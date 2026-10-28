@@ -1,7 +1,7 @@
 [
   {
     "type": "Software",
-    "version": "1.0",
+    "version": "1.0.0",
     "summary": "HydroGeoIA Lab software suite for image-based river velocimetry and surface-flow analysis from videos and aerial imagery. It integrates PIV, optical flow, FFPTV and STIV workflows, metric calibration, dense velocity-vector visualization, method comparison and export of results for river and channel monitoring.",
     "link": "",
     "repository": "",
@@ -46,7 +46,7 @@
     "media_type": "image"
   },
   {
-    "type": "Software",
+    "type": "App",
     "version": "1.0.0",
     "summary": "We developed an advanced monitoring system using remote sensing technology. Through satellite images, hyperspectral spectroscopy and bio-optical models, we were able to assess and monitor water quality in four strategic lakes in south-central Chile: Laguna Grande de San Pedro de la Paz, Lago Lanalhue, Lago Villarrica and Lago Llanquihue.",
     "link": "https://ee-fondecyt1221091-2025.projects.earthengine.app/view/app1221091",
