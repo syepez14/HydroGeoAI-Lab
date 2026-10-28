@@ -1,12 +1,1 @@
-[
-  {
-    "type": "Software Suite",
-    "version": "",
-    "summary": "HydroGeoIA Lab software suite for image-based river velocimetry and surface-flow analysis from videos and aerial imagery. It integrates PIV, optical flow, FFPTV and STIV workflows, metric calibration, dense velocity-vector visualization, method comparison and export of results for river and channel monitoring.",
-    "link": "",
-    "repository": "",
-    "documentation": "",
-    "publications": "",
-    "name": "RiverVision Image Velocimetry Suite"
-  }
-]
+[]
