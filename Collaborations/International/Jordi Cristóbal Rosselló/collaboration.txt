@@ -1,6 +1,0 @@
-Organization:  Universitat Autònoma de Barcelona (UAB)
-Country: Spain
-Summary: My research focuses on Remote Sensing, Ecohydrology, and Agrohydrology. My work combines satellite observations, GIS, and hydrological modelling to investigate climate change impacts on vegetation and water resources. I also study evapotranspiration, surface energy fluxes, drought monitoring, and watershed hydrology, with applications to agricultural water management and ecosystem sustainability.
-Website:https://portalrecerca.uab.cat/en/persons/jordi-cristobal-rossell%C3%B3/
-ORCID: https://orcid.org/0000-0001-6244-4289
-
