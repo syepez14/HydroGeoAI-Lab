@@ -1,2 +1,0 @@
-Icon: ai
-Summary: Machine learning, deep learning and computer vision for environmental monitoring, prediction, classification and geospatial analysis.
