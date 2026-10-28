@@ -9,11 +9,6 @@
     "name": "RiverVision Image Velocimetry Suite",
     "media": [
       {
-        "src": "Technologies/RiverVision Image Velocimetry Suite/image.png",
-        "type": "image",
-        "name": "image.png"
-      },
-      {
         "src": "Technologies/RiverVision Image Velocimetry Suite/image3.png",
         "type": "image",
         "name": "image3.png"
@@ -24,7 +19,7 @@
         "name": "image2.mp4"
       }
     ],
-    "photo": "Technologies/RiverVision Image Velocimetry Suite/image.png",
+    "photo": "Technologies/RiverVision Image Velocimetry Suite/image3.png",
     "media_type": "image"
   },
   {
