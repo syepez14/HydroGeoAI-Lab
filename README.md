@@ -44,6 +44,7 @@ El contenido del sitio se organiza mediante carpetas independientes, lo que perm
 
 - 2026, Septiembre 09: Bastián A. Rivas M. — Creación, configuración y actualización general de la página web.
 - 2026, Octubre 10: Bastián A. Rivas M. — Incorporación de información y correcciones.
+- 2026, Octubre 26: Bastián A. Rivas M. — Incorporación de información, filtros, contadores y mejora visual.
 
 
 ## Quienes estén interesados en colaborar, desarrollar investigaciones, impulsar proyectos conjuntos o solicitar servicios, pueden contactarnos directamente a través del correo electrónico disponible en esta página.
