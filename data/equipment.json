@@ -114,7 +114,16 @@
     "model": "",
     "summary": ".",
     "link": "",
-    "name": "ENVI software license"
+    "name": "ENVI software license",
+    "media": [
+      {
+        "src": "Equipment/ENVI software license/image.jpg",
+        "type": "image",
+        "name": "image.jpg"
+      }
+    ],
+    "photo": "Equipment/ENVI software license/image.jpg",
+    "media_type": "image"
   },
   {
     "model": "",
