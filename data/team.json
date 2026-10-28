@@ -1,0 +1,109 @@
+[
+  {
+    "position": "Thesis student· PhD Candidate in Geological Sciences",
+    "studies": "Geologist  ·",
+    "organization": "Universidad de Concepción · Chile",
+    "summary": "My research examines the fluvial dynamics and morphological evolution of the Biobío, Laja, and Duqueco rivers through multitemporal remote sensing analysis of channel configuration, sediment bars, and surface water extent. It aims to identify river reaches susceptible to morphological adjustment in response to floods and extreme climatic events and to assess the effects of aggregate extraction on channel morphology and fluvial dynamics.",
+    "keywords": [
+      "Rivers",
+      "Fluvial geomorphology",
+      "Impacts of Aggregate Mining on River Morphodynamics",
+      "Remote Sensing"
+    ],
+    "linkedin": "",
+    "researchgate": "https://www.researchgate.net/profile/Angela-Contreras-10",
+    "orcid": "",
+    "website": "",
+    "name": "Angela E. Contreras Gatica"
+  },
+  {
+    "position": "Thesis student · Master's student in Forestry",
+    "studies": "Forest Engineer ·",
+    "organization": "Universidad de Concepción · Chile",
+    "summary": "Forest engineer focused on integrating computational methods, remote sensing and artificial intelligence to study forest and environmental systems. His work explores hydrological modeling, hyperspectral imagery, LiDAR, point clouds, 3D reconstruction and machine learning for environmental analysis and digital plant phenotyping.",
+    "keywords": [
+      "Artificial Intelligence",
+      "Remote Sensing",
+      "Hydrological Modeling",
+      "Hyperspectral Imaging",
+      "LiDAR",
+      "3D Reconstruction",
+      "Plant Phenotyping"
+    ],
+    "linkedin": "https://www.linkedin.com/in/barm-bastian",
+    "researchgate": "https://www.researchgate.net/profile/Bastian-Rivas-Maldonado?ev=prf_overview",
+    "orcid": "https://orcid.org/0009-0002-2931-9683",
+    "website": "https://barm2000.github.io/Bastian-Rivas/",
+    "name": "Bastián A. Rivas Maldonado"
+  },
+  {
+    "position": "Student · Master's student",
+    "studies": "Plant Biotechnology Engineer ·",
+    "organization": "Universidad de Concepción · Chile",
+    "summary": "Plant biotechnology engineer applying computational approaches across remote sensing and biological sciences to study plant, agricultural and environmental systems. His research spans biological and Earth observation data, with interests in bioinformatics, multispectral remote sensing, deep-learning-based image enhancement and data-driven approaches for plant and environmental monitoring.",
+    "keywords": [
+      "Super-resolution imagery",
+      "Bioinformatics & Genomics",
+      "S2DR3"
+    ],
+    "linkedin": "",
+    "researchgate": "https://www.researchgate.net/profile/Francisco-Onate-Vidal",
+    "orcid": "",
+    "website": "",
+    "name": "Francisco I. Oñate Vidal"
+  },
+  {
+    "position": "Student · Master's student",
+    "studies": "Geologist ·",
+    "organization": "Universidad de Concepción · Chile",
+    "summary": "Geologist focused on fluvial geomorphology, sediment transport and remote sensing. His research integrates multitemporal satellite imagery, geospatial analysis and field observations to study river dynamics and environmental change. His previous work examined the morphological evolution of the Laja River, while his current research focuses on the spatial and temporal variability of sediment transport in the Biobío River and its relationship with hydrological and morphological dynamics.",
+    "keywords": [
+      "Geomorphology",
+      "Remote Sensing",
+      "Sediment transport"
+    ],
+    "linkedin": "https://www.linkedin.com/in/joaqu%C3%ADn-espinoza-sandoval-43a792302/?isSelfProfile=false",
+    "researchgate": "https://www.researchgate.net/profile/Joaquin-Espinoza-Sandoval?ev=hdr_xprf",
+    "orcid": "",
+    "website": "",
+    "name": "Joaquín S. Espinoza Sandoval"
+  },
+  {
+    "position": "Thesis student· PhD Candidate in Geological Sciences",
+    "studies": "Geologist  ·",
+    "organization": "Universidad de Concepción · Chile",
+    "summary": "PhD candidate focused on satellite remote sensing of inland waters, with particular emphasis on satellite altimetry and lake-level dynamics. His research integrates SWOT observations, multi-mission satellite altimetry processed using AlTiS, and multisensor optical and radar imagery to delineate water bodies, generate water masks, and reconstruct long-term time series of lake surface area, water levels, and water storage variations. His current work focuses on Andean volcanic lakes in southern Chile, investigating their hydrological responses to climate variability. His broader research interests also include lake hydrogeochemistry and lacustrine sediments.",
+    "keywords": [
+      "Satellite remote sensing",
+      "Satellite altimetry",
+      "Lake hydrology",
+      "SWOT",
+      "Volcanic lakes",
+      "Climate variability"
+    ],
+    "linkedin": "",
+    "researchgate": "",
+    "orcid": "",
+    "website": "",
+    "name": "Luciano Muñoz Hidalgo"
+  },
+  {
+    "position": "Principal Investigator · Associate Professor",
+    "studies": "Geological Engineer · Master of Science in Earth Sciences, Specialization: Geology · Ph.D. in Hydrosedimentology and Remote Sensing",
+    "organization": "Universidad de Concepción · Chile",
+    "summary": "Researcher specializing in fluvial geomorphology, hydrology and advanced remote sensing. His research integrates multiscale and hyperspectral observations to study river and catchment dynamics, sediment transport, water quality, vegetation and environmental processes.",
+    "keywords": [
+      "Fluvial Geomorphology",
+      "Hydrology",
+      "Hyperspectral Remote Sensing",
+      "Sediment Transport",
+      "Water Quality",
+      "UAV & Photogrammetry"
+    ],
+    "linkedin": "https://www.linkedin.com/in/santiago-y%C3%A9pez-75409224/",
+    "researchgate": "https://www.researchgate.net/profile/Santiago-Yepez-2",
+    "orcid": "https://orcid.org/0000-0002-7879-7094",
+    "website": "https://forestal2.udec.cl/departamentos/manejo-de-bosques-y-medio-ambiente/academicos/santiago-yepez/",
+    "name": "Santiago P. Yépez Figueroa"
+  }
+]
