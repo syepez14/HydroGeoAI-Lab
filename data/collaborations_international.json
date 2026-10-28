@@ -1,0 +1,87 @@
+[
+  {
+    "organization": "University of Naples Federico II",
+    "country": "Italy",
+    "summary": "My research/teaching focus is Environmental Hydraulics (EH). My past studies were on two-phases flows (reaeration, dropshaft, hydraulic jump), tidal bores and aquaculture fishnets. Then, I applied CFD methods to complex EH flows (water tanks, dead zones, hyporheic flows, anaerobic digesters, spillways). In the last decade I was involved in field-based studies in the Amazon, Congo, Orinoco, Volga, Yangtze, Yarlung Zangbo and Yellow River basins. I am also studying the history of water science.",
+    "website": "https://sciprofiles.com/profile/247391",
+    "linkedin": "https://www.linkedin.com/in/carlo-gualtieri-247a47a/",
+    "name": "Carlo Gualtieri",
+    "media": [
+      {
+        "src": "Collaborations/International/Carlo Gualtieri/image.jpg",
+        "type": "image",
+        "name": "image.jpg"
+      }
+    ],
+    "photo": "Collaborations/International/Carlo Gualtieri/image.jpg",
+    "media_type": "image"
+  },
+  {
+    "organization": "INRAE – ISPA, ECOFUN Research Team",
+    "country": "France",
+    "summary": "My research focuses on Remote Sensing and Hydrology, particularly the use of satellite radar altimetry to monitor inland water bodies and floodplains. My work combines satellite observations, hydrological modelling, and data analysis to estimate surface water levels and volumes and improve the monitoring of water resources and flood dynamic.",
+    "website": "https://ecofun.ispa.bordeaux.inrae.fr/index.php/people/frederic-frappart/",
+    "orcid": "https://orcid.org/0000-0002-4661-8274",
+    "name": "Frédéric Frappart",
+    "media": [
+      {
+        "src": "Collaborations/International/Frédéric Frappart/image.jpg",
+        "type": "image",
+        "name": "image.jpg"
+      }
+    ],
+    "photo": "Collaborations/International/Frédéric Frappart/image.jpg",
+    "media_type": "image"
+  },
+  {
+    "organization": "CNRS – École Normale Supérieure de Lyon, University of Lyon",
+    "country": "France",
+    "summary": "My research focuses on Fluvial Geomorphology and River Restoration. My work investigates river channel dynamics, sediment transport, riparian vegetation, and the impacts of human activities on river systems. I use field measurements, GIS, remote sensing, and historical data to understand river changes and support sustainable river management and restoration.",
+    "website": "https://umr5600.cnrs.fr/fr/lequipe/name/herve-piegay/",
+    "orcid": "https://orcid.org/0000-0003-1243-6955",
+    "name": "Hervé Piégay",
+    "media": [
+      {
+        "src": "Collaborations/International/Hervé Piégay/image.jpg",
+        "type": "image",
+        "name": "image.jpg"
+      }
+    ],
+    "photo": "Collaborations/International/Hervé Piégay/image.jpg",
+    "media_type": "image"
+  },
+  {
+    "organization": "Universitat Autònoma de Barcelona (UAB)",
+    "country": "Spain",
+    "summary": "My research focuses on Remote Sensing, Ecohydrology, and Agrohydrology. My work combines satellite observations, GIS, and hydrological modelling to investigate climate change impacts on vegetation and water resources. I also study evapotranspiration, surface energy fluxes, drought monitoring, and watershed hydrology, with applications to agricultural water management and ecosystem sustainability.",
+    "website": "https://portalrecerca.uab.cat/en/persons/jordi-cristobal-rossell%C3%B3/",
+    "orcid": "https://orcid.org/0000-0001-6244-4289",
+    "name": "Jordi Cristóbal Rosselló",
+    "media": [
+      {
+        "src": "Collaborations/International/Jordi Cristóbal Rosselló/image.jpg",
+        "type": "image",
+        "name": "image.jpg"
+      }
+    ],
+    "photo": "Collaborations/International/Jordi Cristóbal Rosselló/image.jpg",
+    "media_type": "image"
+  },
+  {
+    "organization": "INRAE – RiverLy Research Unit, River Hydraulics Team",
+    "country": "France",
+    "summary": "My research focuses on River Hydraulics, Hydrometry, and Fluvial Morphodynamics. My work includes river discharge measurement, water and sediment transport, and uncertainty analysis. I develop and apply numerical models and image-based techniques to study river flows and monitor sediment dynamics. I also contribute to open-source tools for hydrometry and collaborate on field-based research and the improvement of river monitoring methods.",
+    "website": "https://riverhydraulics.riverly.inrae.fr/pages-personnelles/jerome-le-coz",
+    "orcid": "https://orcid.org/0000-0003-1243-6955",
+    "name": "Jérôme Le Coz",
+    "media": [
+      {
+        "src": "Collaborations/International/Jérôme Le Coz/image.jpg",
+        "type": "image",
+        "name": "image.jpg"
+      }
+    ],
+    "photo": "Collaborations/International/Jérôme Le Coz/image.jpg",
+    "media_type": "image"
+  }
+]

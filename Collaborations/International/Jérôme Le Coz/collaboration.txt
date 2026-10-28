@@ -1,0 +1,5 @@
+Organization: INRAE – RiverLy Research Unit, River Hydraulics Team
+Country: France
+Summary: My research focuses on River Hydraulics, Hydrometry, and Fluvial Morphodynamics. My work includes river discharge measurement, water and sediment transport, and uncertainty analysis. I develop and apply numerical models and image-based techniques to study river flows and monitor sediment dynamics. I also contribute to open-source tools for hydrometry and collaborate on field-based research and the improvement of river monitoring methods.
+Website:https://riverhydraulics.riverly.inrae.fr/pages-personnelles/jerome-le-coz
+ORCID:https://orcid.org/0000-0003-1243-6955
