@@ -1,0 +1,8 @@
+Year: 2024
+
+Authors: Santiago Yépez; Germán Velásquez; Daniel Torres; Rodrigo Saavedra-Passache; Martin Pincheira; Hayleen Cid; Lien Rodríguez-López; Angela Contreras; Frédéric Frappart; Jordi Cristóbal; Xavier Pons; Neftali Flores; Luc Bourrel
+
+Journal: Remote Sensing
+
+DOI: 10.3390/rs16020427
+Link:
