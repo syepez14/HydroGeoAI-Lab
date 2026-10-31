@@ -5,7 +5,7 @@ Format: In-person
 Status: Coming Soon
 Start:
 Duration:
-Price: Consulte syepez@udec.cl
+Price: For course-related inquiries, please contact: syepez@udec.cl
 Instructor: Dr. Santiago Yépez
 Summary: Hands-on professional course focused on the use of South Rivers Toolbox in QGIS for river morphodynamics, River Styles, multi-temporal channel change analysis, geomorphic characterization and support for river management.
 Registration:
