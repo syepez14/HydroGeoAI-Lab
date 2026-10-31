@@ -5,7 +5,7 @@ Format: In-person
 Status: Coming Soon
 Start:
 Duration:
-Price: Consulte syepez@udec.cl
+Price: For course-related inquiries, please contact: syepez@udec.cl
 Instructor: Dr. Santiago Yépez
 Summary: Advanced professional course in ENVI focused on image visualization, spectral analysis, preprocessing, Hyperion workflows, atmospheric correction, hyperspectral interpretation, spectral classification and applied environmental analysis.
 Registration:
