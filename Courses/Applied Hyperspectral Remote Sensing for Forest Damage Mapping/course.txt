@@ -1,0 +1,15 @@
+Type: Professional Course
+Topic: Remote Sensing
+Level: Applied
+Format: In-person
+Status: Coming Soon
+Start:
+Duration:
+Price: For course-related inquiries, please contact: syepez@udec.cl
+Instructor: Dr. Santiago Yépez
+Summary: Hands-on professional course focused on hyperspectral image processing using HySpex data and ENVI, vegetation indices, masking, spectral signature extraction, supervised classification, and mapping and quantification of forest damage associated with Sirex noctilio in pine plantations.
+Registration:
+Link: 
+Syllabus:
+Documentation:
+Publications: 
