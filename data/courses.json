@@ -69,6 +69,15 @@
     "syllabus": "",
     "documentation": "",
     "publications": "https://piahs.copernicus.org/articles/385/189/2024/",
-    "name": "South Rivers Toolbox Version 1.0.2"
+    "name": "South Rivers Toolbox Version 1.0.2",
+    "media": [
+      {
+        "src": "Courses/South Rivers Toolbox Version 1.0.2/image.png",
+        "type": "image",
+        "name": "image.png"
+      }
+    ],
+    "photo": "Courses/South Rivers Toolbox Version 1.0.2/image.png",
+    "media_type": "image"
   }
 ]
