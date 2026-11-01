@@ -1,0 +1,7 @@
+Type: Remote Sensing
+Icon: 
+Summary: SirexMap is a forest assessment service that uses hyperspectral imagery and spectral classification to map and quantify visible canopy damage potentially associated with Sirex noctilio in pine plantations. By distinguishing healthy vegetation from discolored and declining forest areas, the service enables the estimation of affected surface area, damage distribution, and severity patterns. The resulting thematic maps and spatial statistics support forest health assessments, damage quantification, and silvicultural management decisions.
+Link:
+Website:
+Documentation:
+Publications:
