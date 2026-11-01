@@ -9,6 +9,33 @@
     "duration": "",
     "price": "For course-related inquiries, please contact: syepez@udec.cl",
     "instructor": "Dr. Santiago Yépez",
+    "summary": "Hands-on professional course focused on hyperspectral image processing using HySpex data and ENVI, vegetation indices, masking, spectral signature extraction, supervised classification, and mapping and quantification of forest damage associated with Sirex noctilio in pine plantations.",
+    "registration": "",
+    "link": "",
+    "syllabus": "",
+    "documentation": "",
+    "publications": "",
+    "name": "Applied Hyperspectral Remote Sensing for Forest Damage Mapping",
+    "media": [
+      {
+        "src": "Courses/Applied Hyperspectral Remote Sensing for Forest Damage Mapping/image.png",
+        "type": "image",
+        "name": "image.png"
+      }
+    ],
+    "photo": "Courses/Applied Hyperspectral Remote Sensing for Forest Damage Mapping/image.png",
+    "media_type": "image"
+  },
+  {
+    "type": "Professional Course",
+    "topic": "Remote Sensing",
+    "level": "Applied",
+    "format": "In-person",
+    "status": "Coming Soon",
+    "start": "",
+    "duration": "",
+    "price": "For course-related inquiries, please contact: syepez@udec.cl",
+    "instructor": "Dr. Santiago Yépez",
     "summary": "Applied professional course on hyperspectral remote sensing for mining, from spectral data acquisition and preprocessing to spectral signatures, mineral discrimination, mapping and interpretation for mineral exploration and environmental applications.",
     "registration": "",
     "link": "",
