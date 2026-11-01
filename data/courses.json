@@ -42,7 +42,16 @@
     "syllabus": "",
     "documentation": "",
     "publications": "",
-    "name": "ENVI Professional Course"
+    "name": "ENVI Professional Course",
+    "media": [
+      {
+        "src": "Courses/ENVI Professional Course/image.png",
+        "type": "image",
+        "name": "image.png"
+      }
+    ],
+    "photo": "Courses/ENVI Professional Course/image.png",
+    "media_type": "image"
   },
   {
     "type": "Professional Course",
