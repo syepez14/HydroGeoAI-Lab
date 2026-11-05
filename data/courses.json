@@ -42,7 +42,16 @@
     "syllabus": "",
     "documentation": "",
     "publications": "",
-    "name": "Applied Hyperspectral Remote Sensing for Mining"
+    "name": "Applied Hyperspectral Remote Sensing for Mining",
+    "media": [
+      {
+        "src": "Courses/Applied Hyperspectral Remote Sensing for Mining/image.png",
+        "type": "image",
+        "name": "image.png"
+      }
+    ],
+    "photo": "Courses/Applied Hyperspectral Remote Sensing for Mining/image.png",
+    "media_type": "image"
   },
   {
     "type": "Professional Course",
